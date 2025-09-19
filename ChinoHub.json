@@ -1,0 +1,12 @@
+{
+  "projectName": "ChinoHub",
+  "creationDate": "2025-09-18",
+  "lastUpdateDate": "2025-09-18",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "updateDate": "2025-09-18",
+      "info": "初始版本，包含核心功能"
+    }
+  ]
+}
