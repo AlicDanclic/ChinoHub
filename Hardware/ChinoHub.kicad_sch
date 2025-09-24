@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bb6002ed-6e0a-40ea-a48c-f92cae8db5fa")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 33.02 34.925)
+		(size 37.465 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 52 0 255 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "65a71d17-d9c2-4316-ad73-128311bb9e99")
+		(property "Sheetname" "TypeC3.0Handle"
+			(at 33.02 34.2134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TypeC3.0Handle.kicad_sch"
+			(at 33.02 48.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
