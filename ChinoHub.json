@@ -1,7 +1,7 @@
 {
   "projectName": "ChinoHub",
   "creationDate": "2025-09-18",
-  "lastUpdateDate": "2025-09-24",
+  "lastUpdateDate": "2025-09-26",
   "changelog": [
     {
       "version": "1.0.0",
@@ -12,6 +12,11 @@
       "version": "1.0.1",
       "updateDate": "2025-09-24",
       "info": "完成USB3.0输入原理图"
+    },
+    {
+      "version": "1.0.2",
+      "updateDate": "2025-09-26",
+      "info": "完成对系统框图的绘制"
     }
   ]
 }
