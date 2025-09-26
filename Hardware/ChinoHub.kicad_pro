@@ -582,6 +582,10 @@
     [
       "65a71d17-d9c2-4316-ad73-128311bb9e99",
       "TypeC3.0Handle"
+    ],
+    [
+      "458094f0-5776-4d56-a69e-5b3424749e82",
+      "TypeC2HDMI"
     ]
   ],
   "text_variables": {}

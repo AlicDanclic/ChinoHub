@@ -17,6 +17,11 @@
       "version": "1.0.2",
       "updateDate": "2025-09-26",
       "info": "完成对系统框图的绘制"
+    },
+    {
+      "version": "1.0.2",
+      "updateDate": "2025-09-26",
+      "info": "完成TypeC转HDMI部分"
     }
   ]
 }

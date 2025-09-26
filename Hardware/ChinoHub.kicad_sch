@@ -5,9 +5,518 @@
 	(uuid "bb6002ed-6e0a-40ea-a48c-f92cae8db5fa")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 54.61 115.57) (xy 62.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038da4ab-95d8-4cf0-a673-22b55436e18f")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 62.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c17e4cf-383b-4400-9ea6-66efb7e072df")
+	)
+	(wire
+		(pts
+			(xy 54.61 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156fe8c6-faaf-4d71-a244-fc9de7caaffb")
+	)
+	(wire
+		(pts
+			(xy 54.61 116.84) (xy 62.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7ae1ae-73ae-49b0-989d-c3684cb4730b")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 62.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d7d6b5-a0a5-4df6-abdc-e455fc8cf2ae")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 62.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed3beb9-cfa8-4aa4-8344-413eecc4a06d")
+	)
+	(wire
+		(pts
+			(xy 54.61 118.11) (xy 62.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481c9a9f-2a4f-4317-866f-edd6e3435ec0")
+	)
+	(wire
+		(pts
+			(xy 54.61 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53163eb7-e039-413a-a19c-eeec59f4ff0c")
+	)
+	(wire
+		(pts
+			(xy 54.61 99.06) (xy 62.23 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bd6925-ff89-4c1d-88e1-9c7ad29799b0")
+	)
+	(wire
+		(pts
+			(xy 54.61 105.41) (xy 62.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b772693b-3d75-45a9-ab5a-00e247265324")
+	)
+	(wire
+		(pts
+			(xy 54.61 97.79) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39faa02-288d-4d13-9e72-bc3f4e619c59")
+	)
+	(wire
+		(pts
+			(xy 54.61 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e286286e-c15a-42a5-bcd2-125742891f57")
+	)
+	(wire
+		(pts
+			(xy 54.61 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4d1b90-78c4-4d99-a2dd-56d3ceb2ed67")
+	)
+	(wire
+		(pts
+			(xy 54.61 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6465d03-e981-4870-a983-b5ba62248ce7")
+	)
+	(sheet
+		(at 62.23 95.25)
+		(size 50.165 24.765)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 52 0 255 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "458094f0-5776-4d56-a69e-5b3424749e82")
+		(property "Sheetname" "TypeC2HDMI"
+			(at 62.23 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TypeC2HDMI.kicad_sch"
+			(at 62.23 120.5996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HDMI_USB_D_P" bidirectional
+			(at 62.23 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7e5dd9d-06f6-42bc-a87a-ba3fd0bca01a")
+		)
+		(pin "HDMI_USB_D_N" bidirectional
+			(at 62.23 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1513574-2c9a-4efe-ad11-c697232b92fa")
+		)
+		(pin "HDMI_CSBU1" bidirectional
+			(at 62.23 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0632033f-e9ea-477a-8733-dbd2da02d66a")
+		)
+		(pin "HDMI_CC1" bidirectional
+			(at 62.23 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae6b2421-c449-43bd-95cc-4bc71da29279")
+		)
+		(pin "HDMI_CSBU2" bidirectional
+			(at 62.23 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8dec2e92-4126-4272-bfcc-ec801409a5ec")
+		)
+		(pin "HDMI_CC2" bidirectional
+			(at 62.23 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4aa889f5-b81c-42a8-9bc0-33804d80b0eb")
+		)
+		(pin "HDMI_TX1_P" bidirectional
+			(at 62.23 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe8e18d5-1e25-459a-aa8a-dfeea81b7978")
+		)
+		(pin "HDMI_TX1_N" bidirectional
+			(at 62.23 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bdf441aa-9c62-432a-8510-4f89819b9e3d")
+		)
+		(pin "HDMI_TX2_N" bidirectional
+			(at 62.23 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c27b5da-f918-4eb4-8c36-feaf38b14a39")
+		)
+		(pin "HDMI_TX2_P" bidirectional
+			(at 62.23 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6283b0d8-ee49-456e-b7c1-c3e672729e8d")
+		)
+		(pin "HDMI_RX2_N" bidirectional
+			(at 62.23 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2c2cea2f-49e2-4150-a375-fdb7cbe4b4c4")
+		)
+		(pin "HDMI_RX1_P" bidirectional
+			(at 62.23 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d04d91f7-dce2-4d72-b683-649390ac9881")
+		)
+		(pin "HDMI_RX1_N" bidirectional
+			(at 62.23 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bb9305b9-46ac-44ff-8822-8ff981b9620b")
+		)
+		(pin "HDMI_RX2_P" bidirectional
+			(at 62.23 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8db8f5d6-59f1-4a17-a8d4-255f574165e1")
+		)
+		(pin "HDMI_5V" bidirectional
+			(at 78.74 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e813e91-d5df-46fe-a551-8ec12831731a")
+		)
+		(pin "HDMI_CK_P" bidirectional
+			(at 112.395 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b538c802-3614-44e0-8ff3-e7cb820296f7")
+		)
+		(pin "HDMI_CK_N" bidirectional
+			(at 112.395 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39087d8a-1547-4edf-889d-29f1038f20a6")
+		)
+		(pin "HDMI_SCL" bidirectional
+			(at 112.395 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "893262a8-6387-4a7c-8663-09898352ab93")
+		)
+		(pin "HDMI_SDA" bidirectional
+			(at 112.395 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "baf137cd-bc71-41cf-aad8-964c5bff4ec7")
+		)
+		(pin "HDMI_HPD" bidirectional
+			(at 112.395 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ee6fcda-3c25-45a6-9509-b4effdb26f87")
+		)
+		(pin "HDMI_D1_P" bidirectional
+			(at 112.395 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "545e244e-a6e8-43ab-b776-611f45c850d5")
+		)
+		(pin "HDMI_D2_P" bidirectional
+			(at 112.395 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "253ce232-e822-4975-9623-23a8d9b677e2")
+		)
+		(pin "HDMI_D2_N" bidirectional
+			(at 112.395 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ce6c14c-f47c-4d03-a973-a3312c47665c")
+		)
+		(pin "HDMI_D1_N" bidirectional
+			(at 112.395 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0462e64f-aa1c-4e81-969a-809744ee068f")
+		)
+		(pin "HDMI_D0_P" bidirectional
+			(at 112.395 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43ad145a-ac18-4ea1-8b42-342880fbd4ef")
+		)
+		(pin "HDMI_D0_N" bidirectional
+			(at 112.395 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "275b04d9-7622-49b6-91cb-72a9052c410f")
+		)
+		(pin "CFG_SDA" bidirectional
+			(at 112.395 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67137cc9-80ca-4fc9-8042-cb535970ee78")
+		)
+		(pin "CFG_SCL" bidirectional
+			(at 112.395 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0f1ac69-b4b7-4d55-a40c-dc687ba0216a")
+		)
+		(pin "5265_3V3" bidirectional
+			(at 81.28 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4bfda4e-7cd1-479e-965b-46249540c4d3")
+		)
+		(pin "3V3_OUT" bidirectional
+			(at 83.82 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eba3587f-7de4-4821-986e-76bb3f9f3731")
+		)
+		(pin "HDMI_VBS" bidirectional
+			(at 86.36 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "971a6b10-f71c-4d8b-ab82-c3096580b7af")
+		)
+		(pin "GPIO_1" bidirectional
+			(at 112.395 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8bc447b-44d1-4c1e-be46-3df3b9c19b8e")
+		)
+		(pin "GPIO_2" bidirectional
+			(at 112.395 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55715568-3ef1-4144-ad87-b8688e2824ad")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 33.02 34.925)
-		(size 37.465 12.7)
+		(size 21.59 85.09)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -28,13 +537,443 @@
 			)
 		)
 		(property "Sheetfile" "TypeC3.0Handle.kicad_sch"
-			(at 33.02 48.2096 0)
+			(at 33.02 120.5996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB_IN_2_RX_P" bidirectional
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40b1567f-0970-45a0-9fba-ed7efd8e6c2e")
+		)
+		(pin "USB_IN_2_TX_N" bidirectional
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c144525a-e358-4f1c-bb67-2acc37115b64")
+		)
+		(pin "USB_IN_2_RX_N" bidirectional
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "213ac6fc-fcad-4352-a036-2897cbdb0adf")
+		)
+		(pin "USB_IN_2_TX_P" bidirectional
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a1c0237-a58b-4544-8be6-930d10af6378")
+		)
+		(pin "TypeC_2_5V" output
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebf76994-75a6-4a51-97ad-1c80b8403a40")
+		)
+		(pin "USB_IN_1_TX_P" bidirectional
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15fc03c3-effb-456a-8f0f-fd787c0ec691")
+		)
+		(pin "USB_IN_1_RX_P" bidirectional
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62d5d27e-71e6-4067-baa4-54f6a1ed95f8")
+		)
+		(pin "USB_IN_1_RX_N" bidirectional
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c06c0940-a50e-4451-977c-c22e7ad58b5d")
+		)
+		(pin "USB_IN_1_TX_N" bidirectional
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99b25944-dddb-4952-8255-6a2d0fc71998")
+		)
+		(pin "TypeC_1_5V" output
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f4d430f-8d39-4d57-90a3-69411eeb0384")
+		)
+		(pin "TypeC_1_D_P" output
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f1a7575-525a-49e2-a5ff-509e5d3afc47")
+		)
+		(pin "TypeC_1_D_N" output
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9536077a-c313-4155-b43e-822b41e71a5a")
+		)
+		(pin "TypeC_3_D_P" output
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b100533e-4c44-49b4-b311-47e5211a8f5e")
+		)
+		(pin "TypeC_3_D_N" output
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88c5d6ad-6821-45cb-8197-0d2e6e636e3b")
+		)
+		(pin "TypeC_3_5V" output
+			(at 54.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acf0fa7f-1dee-4b3d-bf60-5f01f8cb2064")
+		)
+		(pin "TypeC_2_D_P" output
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0256f518-8399-4e58-ae11-679ec2af6560")
+		)
+		(pin "TypeC_2_D_N" output
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e622d649-89ee-44ab-998f-f86285bdf090")
+		)
+		(pin "TypeC_4_5V" output
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bef04fdd-d203-4d95-b0b9-e2ae4be2f743")
+		)
+		(pin "TypeC_4_D_N" output
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed4e090d-a60d-4255-a860-6b44e8dfd034")
+		)
+		(pin "TypeC_4_D_P" output
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e0f7c90-3eaa-4486-a83a-d3dae61b36ce")
+		)
+		(pin "HDMI_TX2_P" bidirectional
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "292df593-fa8e-4b33-82f3-78b229e4c9e8")
+		)
+		(pin "HDMI_RX1_P" bidirectional
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5001c0b2-817d-4813-a284-82225c52bfa2")
+		)
+		(pin "HDMI_RX1_N" bidirectional
+			(at 54.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8031f019-dff7-4270-9d8a-9c7b4d922e0b")
+		)
+		(pin "HDMI_RX2_N" bidirectional
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36c71a9c-9f49-4281-a3b2-17963e2b31d3")
+		)
+		(pin "HDMI_CSBU1" output
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2a5358f-bbd8-44af-874b-8e3f3130f889")
+		)
+		(pin "HDMI_RX2_P" bidirectional
+			(at 54.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00900e73-876b-4096-a1b2-8afde0ebf97c")
+		)
+		(pin "HDMI_VBUS" output
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32bbb038-ba1c-4e23-a686-dc8a51fb51ef")
+		)
+		(pin "HDMI_CC1" bidirectional
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dae25005-7d0f-4b55-96f7-d90e4c0792ac")
+		)
+		(pin "HDMI_TX1_P" bidirectional
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2026d47c-c41f-4be3-b81c-e10e1ef2687e")
+		)
+		(pin "HDMI_TX1_N" bidirectional
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "efdf8e67-82ce-4eb4-bd4c-ebe2ac66c379")
+		)
+		(pin "HDMI_USB_D_P" bidirectional
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "211a88d2-6af6-4aec-a3aa-4924fbd4cb2f")
+		)
+		(pin "HDMI_USB_D_N" bidirectional
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4968498-6979-4de1-8e99-83ff03fe1a68")
+		)
+		(pin "HDMI_CSBU2" output
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bcd086dd-a897-4220-b558-ae7d58488d12")
+		)
+		(pin "HDMI_TX2_N" bidirectional
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd2a3c43-36f2-49cf-a9dd-427ab794abad")
+		)
+		(pin "HDMI_CC2" bidirectional
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d805ba1b-2cda-47bc-8d28-d9f1ef0db5a0")
+		)
+		(pin "USB_IN_4_RX_P" bidirectional
+			(at 54.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9435ab6b-ff6c-4c29-95f5-d0b7b58a11b7")
+		)
+		(pin "USB_IN_4_TX_N" bidirectional
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5feab0eb-d734-4cc8-bffe-71635a9441b5")
+		)
+		(pin "USB_IN_4_TX_P" bidirectional
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44c093fe-bc0c-4806-9ff9-441eb94cfd32")
+		)
+		(pin "USB_IN_3_TX_P" bidirectional
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d906950c-a4fb-41eb-8f1c-589baa65c799")
+		)
+		(pin "USB_IN_3_RX_P" bidirectional
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cec53bb1-c943-4e9b-ae2d-6667711a6182")
+		)
+		(pin "USB_IN_3_RX_N" bidirectional
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b21446f9-146c-4ce7-9ed2-96ce14cca3ef")
+		)
+		(pin "USB_IN_3_TX_N" bidirectional
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd0e6079-dbf8-4258-931e-a2acc5e84575")
+		)
+		(pin "USB_IN_4_RX_N" bidirectional
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f8a3fb1-e21c-46d7-a529-a402f47283e6")
 		)
 		(instances
 			(project "ChinoHub"

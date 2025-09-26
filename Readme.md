@@ -4,9 +4,11 @@
 
 ## 项目架构
 
-
+<img src="./Bitmap/Block diagram.png" alt="系统框图" style="zoom: 67%;" />
 
 ## 硬件设计注意事项
+
+> 本设计大量用到USB3.0,布线时要遵循高速和差分.
 
 
 
