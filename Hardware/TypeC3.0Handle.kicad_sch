@@ -1936,6 +1936,10 @@
 		(uuid "a4f656d4-40db-4063-bbba-9d9370ff4401")
 	)
 	(no_connect
+		(at -16.51 252.73)
+		(uuid "aa3768dc-e310-4d38-97e5-434dc305307b")
+	)
+	(no_connect
 		(at -81.28 107.95)
 		(uuid "acfba709-abd6-4beb-b4c0-11feb5416767")
 	)

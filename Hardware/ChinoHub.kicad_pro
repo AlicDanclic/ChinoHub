@@ -586,6 +586,14 @@
     [
       "458094f0-5776-4d56-a69e-5b3424749e82",
       "TypeC2HDMI"
+    ],
+    [
+      "6dc0581e-2538-4f54-a68d-803d786764ca",
+      "USB_HUB"
+    ],
+    [
+      "d5d47200-fa6d-45d0-a0a6-0cb57213afe3",
+      "Power"
     ]
   ],
   "text_variables": {}

@@ -1,7 +1,7 @@
 {
   "projectName": "ChinoHub",
   "creationDate": "2025-09-18",
-  "lastUpdateDate": "2025-09-26",
+  "lastUpdateDate": "2025-09-29",
   "changelog": [
     {
       "version": "1.0.0",
@@ -27,6 +27,11 @@
       "version": "1.0.3",
       "updateDate": "2025-09-26",
       "info": "临时测试"
+    },
+    {
+      "version": "1.0.4",
+      "updateDate": "2025-09-29",
+      "info": "完成HUB部分原理图绘制"
     }
   ]
 }
