@@ -594,6 +594,18 @@
     [
       "d5d47200-fa6d-45d0-a0a6-0cb57213afe3",
       "Power"
+    ],
+    [
+      "7fc36221-98ca-48fe-a143-7bbdbb476871",
+      "OUT_HUB"
+    ],
+    [
+      "9319a559-c36b-4bac-ac3b-ca0b3de1b8e6",
+      "HDMI_OUT"
+    ],
+    [
+      "7a3b33e7-f8b3-436a-88b3-36952ac52235",
+      "MCU"
     ]
   ],
   "text_variables": {}

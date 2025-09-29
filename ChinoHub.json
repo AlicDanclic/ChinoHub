@@ -32,6 +32,11 @@
       "version": "1.0.4",
       "updateDate": "2025-09-29",
       "info": "完成HUB部分原理图绘制"
+    },
+    {
+      "version": "1.0.5",
+      "updateDate": "2025-09-29",
+      "info": "完成HUB部分基础内容"
     }
   ]
 }
