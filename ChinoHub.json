@@ -37,6 +37,11 @@
       "version": "1.0.5",
       "updateDate": "2025-09-29",
       "info": "完成HUB部分基础内容"
+    },
+    {
+      "version": "1.0.7",
+      "updateDate": "2025-09-29",
+      "info": "增加基础的STM32代码"
     }
   ]
 }
