@@ -1,4 +1,4 @@
-24725197749201812
+24755103311940572
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99456,6 +99456,20 @@ CONN-TH_3P-P1.25_GH1.25
 5
 5
 persional_library
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
+persional_library
+CRYSTAL-SMD_L3.2-W1.5-1
+
+
+0
+2
+2
+persional_library
 D0603-BI
 
 
@@ -99469,6 +99483,69 @@ DC-005_2.5
 0
 3
 3
+persional_library
+DSON-10_L2.5-W1.0-P0.50-BL
+
+
+0
+9
+9
+persional_library
+FPC-SMD_6P-P0.50_XUNPU_FPC-05F-6PH20
+
+
+0
+8
+8
+persional_library
+FPC-SMD_20P-P0.50_XUNPU_FPC-05F-20PH20
+
+
+0
+22
+22
+persional_library
+FPC-SMD_24P-P0.50_AFC01-S24FCA-00
+
+
+0
+26
+26
+persional_library
+FPC-SMD_30P-P0.50_XUNPU_FPC-05F-30PH20
+
+
+0
+32
+32
+persional_library
+FPC-SMD_40P-P0.50_XUNPU_FPC-05FB-40PH20
+
+
+0
+42
+42
+persional_library
+FPC-SMD_50P-P0.50_FPC-05FB-50PH20
+
+
+0
+52
+52
+persional_library
+FPC-SMD_AFC01-S12FCA-00
+
+
+0
+14
+14
+persional_library
+FPC-SMD_P0.5-10P_FGS-XJ-H2.0
+
+
+0
+12
+12
 persional_library
 HDMI-SMD_19P-P0.40-H-F_HDMI-519
 
@@ -99484,12 +99561,19 @@ HDMI-SMD_HDMI-001S
 23
 23
 persional_library
+IND-SMD_L7.0-W6.6
+
+
+0
+2
+2
+persional_library
 JUMP0603
 
 
 0
 3
-2
+3
 persional_library
 L0402
 
@@ -99526,6 +99610,13 @@ LED0603-RD
 2
 2
 persional_library
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+
+
+0
+48
+48
+persional_library
 LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
 
 
@@ -99533,12 +99624,26 @@ LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
 64
 64
 persional_library
+LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL
+
+
+0
+100
+100
+persional_library
 MQFN-28_L4.5-W3.5-P0.40-BL-EP
 
 
 0
 29
 29
+persional_library
+OSC-SMD_3P-L3.2-W1.3-P1.20-L
+
+
+0
+3
+3
 persional_library
 QFN-42_L9.0-W3.5-P0.50-EP7.6
 
@@ -99617,6 +99722,13 @@ SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
 3
 3
 persional_library
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+
+
+0
+5
+5
+persional_library
 SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1
 
 
@@ -99630,6 +99742,13 @@ SW-TH_SK12D07VG4
 0
 5
 5
+persional_library
+TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL
+
+
+0
+38
+38
 persional_library
 TYPE-C-SMD_TYPE-C-24P-QCHT
 

@@ -185,6 +185,526 @@
 				)
 			)
 		)
+		(symbol "persional_library:Connect_HDMI_001S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "persional_library:HDMI-SMD_HDMI-001S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230810/ECFF1CC9EF38DC7E290ED6B9AC4EFC06.pdf"
+				(at 50.8 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "19PIN A型前插后贴HDMI插座 铜壳"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "HDMI-001S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XUNPU(讯普)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C720616"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "HDMI-001S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Connect_HDMI_001S_1_0"
+				(rectangle
+					(start -11.43 24.13)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 7.62 180)
+					(length 5.08)
+					(name "TMDS_Data_2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 2.54 180)
+					(length 5.08)
+					(name "TMDS_Clock+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "TMDS_Clock_Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "TMDS_Clock-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -13.97 180)
+					(length 5.08)
+					(name "CEC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -16.51 0)
+					(length 5.08)
+					(name "Reserved_(N.C.)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -16.51 180)
+					(length 5.08)
+					(name "DDC/CEC_Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 21.59 180)
+					(length 5.08)
+					(name "+5V_Power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "Hot_Plug_Detect"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "TMDS_Data_2_Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -11.43 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -13.97 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 5.08 180)
+					(length 5.08)
+					(name "TMDS_Data_2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 12.7 180)
+					(length 5.08)
+					(name "TMDS_Data_1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "TMDS_Data_1_Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 10.16 180)
+					(length 5.08)
+					(name "TMDS_Data_1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 17.78 180)
+					(length 5.08)
+					(name "TMDS_Data_0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "TMDS_Data_0_Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 15.24 180)
+					(length 5.08)
+					(name "TMDS_Data_0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "persional_library:IC_VL160"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1636,6 +2156,18 @@
 		(uuid "200552d3-0afa-437b-97ad-f1ffab2025eb")
 	)
 	(junction
+		(at 88.9 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "256fced8-4632-4966-b6b1-82d0fd36cf04")
+	)
+	(junction
+		(at 88.9 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288500ee-07b6-410d-bc14-814e3d56552b")
+	)
+	(junction
 		(at 2.54 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1664,6 +2196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "363c3e0d-747b-4444-9bc9-6d61055f7e60")
+	)
+	(junction
+		(at 88.9 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d36ea9b-b5ad-4ec3-8645-78ab00db8575")
 	)
 	(junction
 		(at 2.54 199.39)
@@ -1810,6 +2348,12 @@
 		(uuid "cc93bddb-b7af-469a-bbe9-106bfe81a923")
 	)
 	(junction
+		(at 88.9 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf6bcb94-dfca-4c63-9c11-17fbe280748e")
+	)
+	(junction
 		(at 29.21 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,10 +2378,28 @@
 		(uuid "e6c37fce-1127-483f-a14b-e7295e98745a")
 	)
 	(junction
+		(at 88.9 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e805a62b-fef6-4453-a6e8-4a76c1f4e848")
+	)
+	(junction
 		(at 2.54 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb640cba-e64b-4daf-9ecf-612e22bf69ea")
+	)
+	(junction
+		(at 88.9 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef3df5e3-c3fa-44c9-b38c-77a456684b95")
+	)
+	(junction
+		(at 88.9 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef7fac14-d07f-49e3-b479-ff3373d5dda6")
 	)
 	(junction
 		(at 29.21 148.59)
@@ -1892,6 +2454,10 @@
 		(uuid "6e585b1f-e39f-441a-9a65-fad7e3101336")
 	)
 	(no_connect
+		(at 128.27 168.91)
+		(uuid "6f1cf156-6fad-404f-87e0-12448170ab68")
+	)
+	(no_connect
 		(at -16.51 237.49)
 		(uuid "71a9b61c-132e-4b68-aa81-82d37ea87d86")
 	)
@@ -1926,6 +2492,10 @@
 	(no_connect
 		(at 198.12 90.17)
 		(uuid "9978f70d-cade-42cc-855e-9b7b0a4832c8")
+	)
+	(no_connect
+		(at 88.9 171.45)
+		(uuid "9c343960-328d-4858-b3a1-9e712cdc7de0")
 	)
 	(no_connect
 		(at 111.76 90.17)
@@ -2408,6 +2978,16 @@
 			(type default)
 		)
 		(uuid "2c38cf06-3476-4bdb-86b3-c09cb43186d0")
+	)
+	(wire
+		(pts
+			(xy 88.9 166.37) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f18d2d1-a37b-4f57-970a-78ba133a01ab")
 	)
 	(wire
 		(pts
@@ -2991,6 +3571,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 163.83) (xy 88.9 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742267a1-ff3d-4344-ac7c-a6118b13edbb")
+	)
+	(wire
+		(pts
 			(xy -92.71 176.53) (xy -81.28 176.53)
 		)
 		(stroke
@@ -3551,6 +4141,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 161.29) (xy 88.9 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b5e69f-4bc2-4753-90eb-24d055d307f7")
+	)
+	(wire
+		(pts
 			(xy 22.86 229.87) (xy 22.86 234.95)
 		)
 		(stroke
@@ -3638,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "bc26b501-f5d8-418a-951b-3b717ab8f9fc")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc393b8e-df2a-4d84-af2c-6222cb81f36f")
 	)
 	(wire
 		(pts
@@ -3858,6 +4468,16 @@
 			(type default)
 		)
 		(uuid "ddf9b72d-2246-4c69-be1a-9a6774e361a5")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de07dfa7-fed6-4c8a-864a-4b654073c7cc")
 	)
 	(wire
 		(pts
@@ -4121,6 +4741,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 156.21) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa467bd0-74e8-491f-b947-02aecbaa0931")
+	)
+	(wire
+		(pts
 			(xy -92.71 196.85) (xy -81.28 196.85)
 		)
 		(stroke
@@ -4178,6 +4808,16 @@
 			(type default)
 		)
 		(uuid "fe3d82a6-34f4-47a2-b51e-cd32a72727a6")
+	)
+	(wire
+		(pts
+			(xy 88.9 151.13) (xy 88.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed38160-cffb-4776-a16a-9dfa1f7f467b")
 	)
 	(wire
 		(pts
@@ -5140,6 +5780,17 @@
 		)
 		(uuid "2055785c-0d00-4c96-8b18-7804cee4ff3c")
 	)
+	(hierarchical_label "TMDS_D2_P"
+		(shape input)
+		(at 128.27 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "243fbf7a-c1bc-42d9-9593-204df6676222")
+	)
 	(hierarchical_label "HDMI_RX2_N"
 		(shape bidirectional)
 		(at 26.67 48.26 180)
@@ -5161,6 +5812,17 @@
 			(justify left)
 		)
 		(uuid "28b31894-5c97-423a-b46c-7845095d5548")
+	)
+	(hierarchical_label "TMDS_HPD"
+		(shape input)
+		(at 128.27 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ab21582-99b3-4e8d-a13f-8b5c64c8d1fc")
 	)
 	(hierarchical_label "TypeC_3_5V"
 		(shape output)
@@ -5250,6 +5912,17 @@
 		)
 		(uuid "4762429e-d243-41b0-8c53-01ac775a5f02")
 	)
+	(hierarchical_label "TMDS_D1_N"
+		(shape input)
+		(at 128.27 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47f64640-df5b-4fe5-ba9e-901da668831d")
+	)
 	(hierarchical_label "USB_IN_3_RX_P"
 		(shape bidirectional)
 		(at -16.51 201.93 0)
@@ -5260,6 +5933,17 @@
 			(justify left)
 		)
 		(uuid "4913af51-2672-4db9-a880-2dab0064f1e1")
+	)
+	(hierarchical_label "TMDS_D1_P"
+		(shape input)
+		(at 128.27 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bf00232-3778-4e9b-8deb-7df5787d432c")
 	)
 	(hierarchical_label "TypeC_2_5V"
 		(shape output)
@@ -5349,6 +6033,17 @@
 		)
 		(uuid "6541ab79-6477-4f7f-9446-30e3c092f152")
 	)
+	(hierarchical_label "TMDS_CLK_P"
+		(shape input)
+		(at 128.27 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e5812f-e624-490c-9077-ddd3d192fbef")
+	)
 	(hierarchical_label "TypeC_1_D_N"
 		(shape output)
 		(at 111.76 40.64 180)
@@ -5426,6 +6121,28 @@
 		)
 		(uuid "7554f4ba-43e2-491a-96b6-84c29c181465")
 	)
+	(hierarchical_label "TMDS_SDA"
+		(shape input)
+		(at 128.27 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75df83d2-965a-4252-8371-eb067886c74b")
+	)
+	(hierarchical_label "TMDS_D0_P"
+		(shape input)
+		(at 128.27 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78305314-c1ec-4f84-848c-5dd5fe0855e7")
+	)
 	(hierarchical_label "TypeC_3_D_N"
 		(shape output)
 		(at 111.76 87.63 180)
@@ -5437,6 +6154,17 @@
 		)
 		(uuid "78b8cff8-7274-4223-b1c0-c126de08bf66")
 	)
+	(hierarchical_label "TMDS_D2_N"
+		(shape input)
+		(at 128.27 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bf9358b-a87b-4007-9745-3f62e028c050")
+	)
 	(hierarchical_label "TypeC_2_D_N"
 		(shape output)
 		(at 198.12 40.64 180)
@@ -5447,6 +6175,17 @@
 			(justify right)
 		)
 		(uuid "7d31cd9f-b1f7-4177-b007-844cbe61b3d7")
+	)
+	(hierarchical_label "TMDS_D0_N"
+		(shape input)
+		(at 128.27 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7de94722-e9b0-4bd3-b2cb-d75deecb0232")
 	)
 	(hierarchical_label "USB_IN_1_RX_N"
 		(shape bidirectional)
@@ -5535,6 +6274,17 @@
 			(justify right)
 		)
 		(uuid "8dc1dbc7-bf8e-434c-85aa-42a490110043")
+	)
+	(hierarchical_label "TMDS_5V"
+		(shape input)
+		(at 128.27 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9368b01d-86c8-45ce-9e43-c487b7714bbb")
 	)
 	(hierarchical_label "USB_IN_3_TX_N"
 		(shape bidirectional)
@@ -5778,6 +6528,17 @@
 		)
 		(uuid "f1b68512-1619-4c39-8e6d-89ac78dbd95a")
 	)
+	(hierarchical_label "TMDS_CLK_N"
+		(shape input)
+		(at 128.27 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f396dcf3-83a0-42b6-a6d7-f9de25fb18e0")
+	)
 	(hierarchical_label "HDMI_VBUS"
 		(shape output)
 		(at 54.61 33.02 0)
@@ -5799,6 +6560,17 @@
 			(justify left)
 		)
 		(uuid "f89e6f6e-80e9-4b24-9c93-ba694b825d02")
+	)
+	(hierarchical_label "TMDS_SCL"
+		(shape input)
+		(at 128.27 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc529311-ea17-4467-b83e-8cc555f0af32")
 	)
 	(hierarchical_label "USB_IN_2_TX_P"
 		(shape bidirectional)
@@ -8004,6 +8776,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 128.27 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b8ae008-8d24-4977-b3d7-2b17e534c85a")
+		(property "Reference" "#PWR0202"
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701aab40-326d-44ff-8e35-903d7feceea5")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/65a71d17-d9c2-4316-ad73-128311bb9e99"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 210.82 17.78 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8488,6 +9327,73 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/65a71d17-d9c2-4316-ad73-128311bb9e99"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38ca2be1-e9b8-4f09-950d-e1495634e2e6")
+		(property "Reference" "#PWR0201"
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ceeb32c-6dd5-49ac-a372-e913bf1f0168")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/65a71d17-d9c2-4316-ad73-128311bb9e99"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -10849,6 +11755,182 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/65a71d17-d9c2-4316-ad73-128311bb9e99"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Connect_HDMI_001S")
+		(at 105.41 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fcf7cd4-7f5b-49cf-8691-0c6cff9a8160")
+		(property "Reference" "USB6"
+			(at 108.585 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 108.585 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:HDMI-SMD_HDMI-001S"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230810/ECFF1CC9EF38DC7E290ED6B9AC4EFC06.pdf"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "19PIN A型前插后贴HDMI插座 铜壳"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HDMI-001S"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C720616"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "HDMI-001S"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2ad107e3-af0f-4cde-bbca-b4bd0be47ea8")
+		)
+		(pin "7"
+			(uuid "79bcb4ac-86c6-462c-a8c1-d99e18a283c8")
+		)
+		(pin "14"
+			(uuid "1e31e8eb-0fb0-415b-b1d6-d9e691cfb11a")
+		)
+		(pin "13"
+			(uuid "f7c252eb-1a16-4949-86ed-b5e1ed67501c")
+		)
+		(pin "5"
+			(uuid "a839bd74-5735-41d1-a54e-dea82dce1606")
+		)
+		(pin "20"
+			(uuid "5b86d3af-2b94-4ef2-8f95-5140e0e4f58d")
+		)
+		(pin "1"
+			(uuid "fdfc608a-23ce-4a35-bd0d-0467f57255b4")
+		)
+		(pin "9"
+			(uuid "8d2960b0-541e-4351-bb6c-6a79e08a5c39")
+		)
+		(pin "15"
+			(uuid "da228db9-e1ba-4db6-9dca-b4ca0b36e6c7")
+		)
+		(pin "18"
+			(uuid "3f0319f4-ee29-4da9-9326-170b398f449e")
+		)
+		(pin "19"
+			(uuid "b324630b-ef14-41bc-825a-97c310065573")
+		)
+		(pin "8"
+			(uuid "266c8d85-e924-41ae-97ba-9855bdddcff1")
+		)
+		(pin "2"
+			(uuid "b4f26658-f132-411a-a8c0-6bedba175645")
+		)
+		(pin "22"
+			(uuid "c36c33cb-86b3-409e-89b9-cebd0fad4210")
+		)
+		(pin "11"
+			(uuid "b9b32943-d4f3-44bf-933e-aee635ec73fd")
+		)
+		(pin "17"
+			(uuid "a49a151d-5e42-4743-80ff-ccd02a92fa93")
+		)
+		(pin "23"
+			(uuid "ec156d81-09a0-4b33-b6e7-e55da7caa470")
+		)
+		(pin "21"
+			(uuid "971b11a6-82e7-436a-ae19-0b542247e93f")
+		)
+		(pin "16"
+			(uuid "6e5466cf-3942-4226-a0e0-ca2821c3e728")
+		)
+		(pin "12"
+			(uuid "16cb9ca4-6291-46cc-9b58-002818e4bdfa")
+		)
+		(pin "10"
+			(uuid "915d45dd-40f3-43ce-9a2d-f340fe12fbe3")
+		)
+		(pin "6"
+			(uuid "8e3f5338-ff08-4bd2-a1ed-8ad4fff4a7fd")
+		)
+		(pin "4"
+			(uuid "1db7de32-c632-422f-a586-b8978334edfa")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/65a71d17-d9c2-4316-ad73-128311bb9e99"
+					(reference "USB6")
 					(unit 1)
 				)
 			)
