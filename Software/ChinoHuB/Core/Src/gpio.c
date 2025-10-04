@@ -51,24 +51,26 @@ void MX_GPIO_Init(void)
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, GPIO1_Pin|GPIO2_Pin|HDMI_SEL2_Pin|HDMI_SEL1_Pin
-                          |HDMI_EN_Pin, GPIO_PIN_RESET);
+                          |HDMI_ENB5_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOA, HUB_SEL1_Pin|HUB_SEL0_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : PBPin PBPin PBPin PBPin
                            PBPin */
+  GPIO_InitStruct.Pin = HDMI_EN_Pin|HDMI_KEY_Pin|HUB_KEY4_Pin|HUB_KEY3_Pin
+                          |HUB_KEY2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PBPin PBPin PBPin PBPin
+                           PBPin */
   GPIO_InitStruct.Pin = GPIO1_Pin|GPIO2_Pin|HDMI_SEL2_Pin|HDMI_SEL1_Pin
-                          |HDMI_EN_Pin;
+                          |HDMI_ENB5_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PBPin PBPin PBPin PBPin */
-  GPIO_InitStruct.Pin = HDMI_KEY_Pin|HUB_KEY4_Pin|HUB_KEY3_Pin|HUB_KEY2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PtPin */

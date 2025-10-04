@@ -185,6 +185,213 @@
 				)
 			)
 		)
+		(symbol "persional_library:Connect_GH1.25_3P_Horizontal"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "persional_library:CONN-TH_3P-P1.25_GH1.25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220527/CB8773BFB0913C3B8ABD62CB38BA101A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "插针结构:1x3P;间距:1.25mm;安装方式:卧贴;参考系列:GH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:1A;触头材质:黄铜;触头镀层:-;工作温度范围:-25°C~+85°C;"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "WAFER-GH1.25-3PWB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XUNPU(讯普)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C3029378"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1x3P 间距:1.25mm 卧贴 系列:GH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Connect_GH1.25_3P_Horizontal_1_0"
+				(rectangle
+					(start -2.54 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "persional_library:Connect_GH1.25_4P_Horizontal"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -401,6 +608,195 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "persional_library:Connect_XH2.54_1x4P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "persional_library:HDR-TH_4P-P2.54-V-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-04P/2801085.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "插针结构:1x4P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:4P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度:-40°C~+105°C;颜色:黑色;"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "PZ254V-11-04P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XFCN(兴飞)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2691448"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1x4P 间距:2.54mm 方针 直插"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Connect_XH2.54_1x4P_1_0"
+				(rectangle
+					(start -2.54 -6.35)
+					(end 2.54 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2233,10 +2629,40 @@
 		(uuid "1bd3c8f5-922b-4e94-8072-49ff2cb22143")
 	)
 	(junction
+		(at 233.68 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25bdb09d-0c20-4435-9999-14fd0c554afb")
+	)
+	(junction
+		(at 205.74 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b35f2e5-906e-4501-94e2-5bf9516ea75f")
+	)
+	(junction
+		(at 194.31 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de1059f-3816-41d1-9428-9baf6cd1e890")
+	)
+	(junction
+		(at 205.74 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40acd696-d4c1-4a10-8710-23801dc17af8")
+	)
+	(junction
 		(at 58.42 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d627bae-3293-4e19-b74c-a6ec278f7534")
+	)
+	(junction
+		(at 166.37 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550c9205-cc7d-48d1-bbe7-b742a1642052")
 	)
 	(junction
 		(at 48.26 77.47)
@@ -2251,10 +2677,28 @@
 		(uuid "5c5d9034-1612-4586-a216-3e34c4baa659")
 	)
 	(junction
+		(at 233.68 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62bca155-4c98-48c7-ae84-86045a12b4e0")
+	)
+	(junction
+		(at 154.94 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849991dc-c6d2-4ab3-920e-1a63aef742d0")
+	)
+	(junction
 		(at 53.34 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "958afa51-371c-48b6-af07-4bd2e3f73370")
+	)
+	(junction
+		(at 194.31 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ba12c4-bc84-4831-ac0b-73ad4a175c93")
 	)
 	(junction
 		(at 58.42 67.31)
@@ -2269,6 +2713,24 @@
 		(uuid "b32c0d44-fbc5-4747-8181-c42659651401")
 	)
 	(junction
+		(at 166.37 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ae8574-99a4-4451-a19e-d4270a5e68f0")
+	)
+	(junction
+		(at 245.11 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e27f1d-e505-46cf-9f05-22f6d4f32212")
+	)
+	(junction
+		(at 154.94 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db7c637d-77c6-4a9d-944d-94695fd66704")
+	)
+	(junction
 		(at 48.26 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2281,18 +2743,48 @@
 		(uuid "e626304e-0498-420d-bb0c-e8ba551a74fc")
 	)
 	(junction
+		(at 245.11 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f44143-d8ef-4792-894a-a6acd3b9e920")
+	)
+	(junction
 		(at 43.18 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc2e32cf-cf60-46db-8475-58304576d5c7")
 	)
 	(no_connect
+		(at 241.3 142.24)
+		(uuid "09d39c50-0296-4237-a24c-6285f7c9b3a6")
+	)
+	(no_connect
+		(at 196.85 123.19)
+		(uuid "0c7d60aa-ef3f-46ae-968d-7e3ab551aa23")
+	)
+	(no_connect
 		(at 121.92 77.47)
 		(uuid "15f10c21-9bd2-4df8-bca4-2d6eafc58db6")
 	)
 	(no_connect
-		(at 121.92 97.79)
-		(uuid "2040fad4-5bb6-41d6-82aa-e7815176db0c")
+		(at 162.56 123.19)
+		(uuid "28f7830a-d8f8-4970-9cfe-52c47e2c3e2f")
+	)
+	(no_connect
+		(at 157.48 123.19)
+		(uuid "36dcbb41-7ffb-44e4-ae90-ea3b79702b24")
+	)
+	(no_connect
+		(at 157.48 142.24)
+		(uuid "3ff97d79-a634-4c4e-a3ca-bdd5312901a4")
+	)
+	(no_connect
+		(at 236.22 123.19)
+		(uuid "48490977-bab4-414d-9e59-92a0d3b8a280")
+	)
+	(no_connect
+		(at 201.93 123.19)
+		(uuid "4a3e0b43-b656-48d6-9905-758f4bf104e1")
 	)
 	(no_connect
 		(at 228.6 59.69)
@@ -2307,6 +2799,10 @@
 		(uuid "89db982e-2f17-40b5-a2d7-c07e22172b98")
 	)
 	(no_connect
+		(at 236.22 142.24)
+		(uuid "b7fcc54a-45d9-4923-b24d-7b62e1501459")
+	)
+	(no_connect
 		(at 121.92 57.15)
 		(uuid "b8ec72f6-46c6-4fd7-9844-5d76d3fae23c")
 	)
@@ -2319,8 +2815,16 @@
 		(uuid "be2857d5-e0ab-401e-9ae2-f8b98e329482")
 	)
 	(no_connect
+		(at 201.93 142.24)
+		(uuid "be6a7e4f-df20-4a01-ba0c-a3c5a5e7a2e9")
+	)
+	(no_connect
 		(at 121.92 87.63)
 		(uuid "c2776319-7612-4757-942b-39cd44c255f9")
+	)
+	(no_connect
+		(at 241.3 123.19)
+		(uuid "cd44ceb9-2bd8-4c1d-bdd1-c3ce46c16ebb")
 	)
 	(no_connect
 		(at 121.92 59.69)
@@ -2343,8 +2847,26 @@
 		(uuid "e9de2f3a-a3a6-4b80-aea9-9f3d1c55e702")
 	)
 	(no_connect
+		(at 162.56 142.24)
+		(uuid "eaa8811c-346f-4e82-81eb-bb1c500238da")
+	)
+	(no_connect
+		(at 196.85 142.24)
+		(uuid "f577cfb9-f6eb-4954-9152-4682ea59ddb2")
+	)
+	(no_connect
 		(at 121.92 90.17)
 		(uuid "f7cf77fa-67c7-4b06-83ae-c2fec2ff47c6")
+	)
+	(wire
+		(pts
+			(xy 241.3 133.35) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0446d432-2fe6-41d2-9d58-2fe6891e8ab7")
 	)
 	(wire
 		(pts
@@ -2368,6 +2890,46 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 157.48) (xy 204.47 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d73f5c1-0eb6-4a39-a43e-c3258a3e06d1")
+	)
+	(wire
+		(pts
+			(xy 83.82 39.37) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9b89e5-8a53-4d20-98e2-febfef15b3e3")
+	)
+	(wire
+		(pts
+			(xy 194.31 152.4) (xy 194.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc684df-e075-424a-8913-925cee2d8e77")
+	)
+	(wire
+		(pts
+			(xy 205.74 133.35) (xy 205.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a6789f-1304-4de9-b1ae-4af8359e774c")
+	)
+	(wire
+		(pts
 			(xy 113.03 82.55) (xy 121.92 82.55)
 		)
 		(stroke
@@ -2375,6 +2937,26 @@
 			(type default)
 		)
 		(uuid "1c633e4b-b883-418c-b308-425f2dc59d30")
+	)
+	(wire
+		(pts
+			(xy 194.31 133.35) (xy 194.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c71e6d6-d014-4d61-8e73-43e22b369c8c")
+	)
+	(wire
+		(pts
+			(xy 245.11 152.4) (xy 245.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd2b2f4-8291-4160-901c-5235dc094395")
 	)
 	(wire
 		(pts
@@ -2395,6 +2977,36 @@
 			(type default)
 		)
 		(uuid "1f371510-b25c-4fff-a21e-f626a268432e")
+	)
+	(wire
+		(pts
+			(xy 246.38 138.43) (xy 245.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e360df-8c84-41c7-8ec1-84c9381488c4")
+	)
+	(wire
+		(pts
+			(xy 113.03 147.32) (xy 121.92 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26de09ed-afe3-4df2-9cc3-0a66d8b7c335")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 245.11 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2966b7fc-3eb2-4618-8c8b-bdcc214243b6")
 	)
 	(wire
 		(pts
@@ -2448,6 +3060,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d946423-e56c-44f7-8b50-6d480925f6a9")
+	)
+	(wire
+		(pts
 			(xy 232.41 62.23) (xy 228.6 62.23)
 		)
 		(stroke
@@ -2458,6 +3080,36 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 152.4) (xy 205.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406415cf-e23e-4de6-a376-647307c61881")
+	)
+	(wire
+		(pts
+			(xy 113.03 137.16) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479af6e5-eb66-4442-8768-f7025d30b9a2")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c13a3a-2338-4d1f-9f89-a3eb3971ac51")
+	)
+	(wire
+		(pts
 			(xy 35.56 41.91) (xy 41.91 41.91)
 		)
 		(stroke
@@ -2465,6 +3117,16 @@
 			(type default)
 		)
 		(uuid "501398f5-be7d-4f1e-b1bf-9f9401d015cf")
+	)
+	(wire
+		(pts
+			(xy 245.11 157.48) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f2de77-9be2-404d-a973-b0f1f03e6495")
 	)
 	(wire
 		(pts
@@ -2498,6 +3160,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 133.35) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d16f33f-105a-4362-93f9-7be26d055290")
+	)
+	(wire
+		(pts
 			(xy 228.6 69.85) (xy 237.49 69.85)
 		)
 		(stroke
@@ -2515,6 +3187,26 @@
 			(type default)
 		)
 		(uuid "5edf7794-72ee-4e0b-9412-8a453bccfb1a")
+	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcceb22-e7bb-4e51-809b-ab668582b46b")
+	)
+	(wire
+		(pts
+			(xy 166.37 157.48) (xy 165.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6327b427-9fce-482b-9750-55da3ff65547")
 	)
 	(wire
 		(pts
@@ -2538,6 +3230,46 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 152.4) (xy 205.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669259dd-6718-49be-9523-112a7eea137b")
+	)
+	(wire
+		(pts
+			(xy 201.93 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68580bdf-9b41-4e1e-bff2-e8d13a33fdc3")
+	)
+	(wire
+		(pts
+			(xy 246.38 157.48) (xy 245.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da14b14-a5b8-4809-bb2a-0c2cab3cd1fb")
+	)
+	(wire
+		(pts
+			(xy 245.11 133.35) (xy 245.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8d7d07-1af4-496d-a0bb-f933af4dd091")
+	)
+	(wire
+		(pts
 			(xy 228.6 100.33) (xy 237.49 100.33)
 		)
 		(stroke
@@ -2555,6 +3287,16 @@
 			(type default)
 		)
 		(uuid "788c1194-fb5c-4d57-bd73-82e67f789c96")
+	)
+	(wire
+		(pts
+			(xy 233.68 133.35) (xy 233.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0c6f1f-07f1-4e95-b8db-43123baed921")
 	)
 	(wire
 		(pts
@@ -2595,6 +3337,56 @@
 			(type default)
 		)
 		(uuid "88067a9f-caf6-4b5c-975e-2f984b3cca58")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942a1955-3d90-463a-9ab1-5f90541fdf72")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985862ee-dea7-406b-8ee4-4186052219cf")
+	)
+	(wire
+		(pts
+			(xy 166.37 152.4) (xy 166.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29202f9-c8a2-4d86-8f78-b5d8f24606af")
+	)
+	(wire
+		(pts
+			(xy 167.64 157.48) (xy 166.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59da399-63e9-4580-b2cc-2f0f6d2885fb")
+	)
+	(wire
+		(pts
+			(xy 162.56 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7def659-8660-4f86-903f-7b56b2a46192")
 	)
 	(wire
 		(pts
@@ -2668,6 +3460,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 152.4) (xy 233.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b95fb7-b478-473d-a7f7-99ac30e3893a")
+	)
+	(wire
+		(pts
+			(xy 113.03 149.86) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f29a8b-7ef8-456c-a818-87137d24fd12")
+	)
+	(wire
+		(pts
 			(xy 228.6 95.25) (xy 237.49 95.25)
 		)
 		(stroke
@@ -2685,6 +3497,36 @@
 			(type default)
 		)
 		(uuid "d0239d96-77e6-4613-bfa9-c7b02a765cb1")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 194.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d195ec30-9e64-4732-a6b0-f81fe8e3701b")
+	)
+	(wire
+		(pts
+			(xy 154.94 133.35) (xy 154.94 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d1525e-eeac-4c3c-8634-e87786e0e470")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de521548-f518-492d-8edc-8930279165f1")
 	)
 	(wire
 		(pts
@@ -2708,6 +3550,36 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 157.48) (xy 205.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e153fd37-4127-4bf9-819e-a9fba35f9205")
+	)
+	(wire
+		(pts
+			(xy 154.94 152.4) (xy 154.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fcb734-9851-481b-8346-7d2973eca3e1")
+	)
+	(wire
+		(pts
+			(xy 236.22 152.4) (xy 233.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7206af6-1ce9-414b-9370-bbf637d2c1b3")
+	)
+	(wire
+		(pts
 			(xy 228.6 64.77) (xy 237.49 64.77)
 		)
 		(stroke
@@ -2715,6 +3587,16 @@
 			(type default)
 		)
 		(uuid "e7757f8f-a945-4fc5-a8b7-b69391f37a95")
+	)
+	(wire
+		(pts
+			(xy 207.01 138.43) (xy 205.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e775cf48-c76c-4895-8382-319a44176b14")
 	)
 	(wire
 		(pts
@@ -2738,6 +3620,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 152.4) (xy 166.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea061a9e-8c35-45c1-a2bf-899461d704c8")
+	)
+	(wire
+		(pts
+			(xy 121.92 139.7) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbca679-48f5-4b6a-8d56-1e48343605cc")
+	)
+	(wire
+		(pts
 			(xy 228.6 107.95) (xy 237.49 107.95)
 		)
 		(stroke
@@ -2745,6 +3647,16 @@
 			(type default)
 		)
 		(uuid "eecf921e-9182-4937-8464-9ecb32294bd8")
+	)
+	(wire
+		(pts
+			(xy 245.11 138.43) (xy 243.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6251886-36f2-49f6-a457-4483ddfd83cc")
 	)
 	(wire
 		(pts
@@ -2768,6 +3680,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 152.4) (xy 154.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1c83f4-a832-4cfb-b392-10df4aad6075")
+	)
+	(wire
+		(pts
+			(xy 166.37 133.35) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff633992-72a1-44a5-994d-e990d77e730d")
+	)
+	(wire
+		(pts
 			(xy 113.03 62.23) (xy 121.92 62.23)
 		)
 		(stroke
@@ -2775,6 +3707,16 @@
 			(type default)
 		)
 		(uuid "ffbfeedf-f4c0-406b-b3c5-45ecc5ad8aaa")
+	)
+	(wire
+		(pts
+			(xy 196.85 152.4) (xy 194.31 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd0a06c-950b-4653-b475-fb372178c725")
 	)
 	(label "HUB_SEL1"
 		(at 237.49 92.71 180)
@@ -2836,6 +3778,16 @@
 		)
 		(uuid "20fadcfb-5282-4347-abef-db7cf3b96b95")
 	)
+	(label "HUB_KEY1"
+		(at 163.83 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27a77c2d-6e3b-4ba0-b131-c7302e9e0b20")
+	)
 	(label "USART2_TX"
 		(at 113.03 80.01 0)
 		(effects
@@ -2845,6 +3797,26 @@
 			(justify left bottom)
 		)
 		(uuid "2be41529-8df4-42ce-ad46-065d276d7ddd")
+	)
+	(label "Connect_RX"
+		(at 92.71 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3190de54-a7be-4298-bd99-b266bc7edaba")
+	)
+	(label "HDMI_EN"
+		(at 242.57 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a87f549-776a-4e0b-94aa-438b43356f35")
 	)
 	(label "HUB_SEL0"
 		(at 237.49 90.17 180)
@@ -2896,6 +3868,16 @@
 		)
 		(uuid "6dc8c1ea-8293-4bf4-8a5a-61b490a47a48")
 	)
+	(label "HDMI_KEY"
+		(at 203.2 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74572577-f87e-412d-96cc-b4befe3210fb")
+	)
 	(label "RST"
 		(at 50.8 124.46 0)
 		(effects
@@ -2906,6 +3888,16 @@
 		)
 		(uuid "75eaf0ad-6a0b-40a8-abd6-4d9dfb8f917f")
 	)
+	(label "HDMI_EN"
+		(at 111.76 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78f9a361-3d2d-499a-acce-9b8f8eff4bab")
+	)
 	(label "HUB_KEY1"
 		(at 237.49 100.33 180)
 		(effects
@@ -2915,6 +3907,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a07c577-b4d9-49be-857a-cb01979bdb39")
+	)
+	(label "HUB_KEY4"
+		(at 163.83 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "813bad08-19ce-4768-82e7-27380a3bd7c0")
 	)
 	(label "HDMI_SEL1"
 		(at 237.49 72.39 180)
@@ -2976,6 +3978,26 @@
 		)
 		(uuid "a6d8bf1f-3782-41bd-a308-27bfa878fd07")
 	)
+	(label "HUB_KEY3"
+		(at 242.57 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa99bf0b-efa3-4942-af84-4487075fef18")
+	)
+	(label "USART2_TX"
+		(at 121.92 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aafe87dd-9ed9-4f34-a049-6d0e198e890f")
+	)
 	(label "OSC_OUT"
 		(at 34.29 96.52 0)
 		(effects
@@ -3016,6 +4038,16 @@
 		)
 		(uuid "cdf8d333-2285-4a09-a3f1-cc0114f12ff1")
 	)
+	(label "Connect_TX"
+		(at 92.71 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dff1412e-cdb4-40f8-8ea3-efe8b3731000")
+	)
 	(label "USART2_RX"
 		(at 113.03 82.55 0)
 		(effects
@@ -3026,6 +4058,16 @@
 		)
 		(uuid "ea2a15cf-6edb-4fc6-944b-17b07281a2d8")
 	)
+	(label "I2C_SDA"
+		(at 121.92 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebca7b05-755c-4fbc-9b2b-27719f79e490")
+	)
 	(label "I2C_SCL"
 		(at 237.49 67.31 180)
 		(effects
@@ -3035,6 +4077,36 @@
 			(justify right bottom)
 		)
 		(uuid "ee53f084-7c2a-4bf8-8ed0-27ec398cbafd")
+	)
+	(label "USART2_RX"
+		(at 121.92 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f11d342a-d22b-4f19-8f8a-7930f13b6f8c")
+	)
+	(label "I2C_SCL"
+		(at 121.92 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2da9ba7-1b1c-4d60-b6cf-f0392df2ab41")
+	)
+	(label "HUB_KEY2"
+		(at 203.2 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd462ba4-1022-4fea-a5c9-369785f8fd62")
 	)
 	(hierarchical_label "HMDI_SEL1"
 		(shape input)
@@ -3112,6 +4184,194 @@
 			(justify left)
 		)
 		(uuid "e1711939-5ae6-4def-b7b9-2f786e5b32bb")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 177.8 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06e2f43b-146a-4701-9b22-6758512e770c")
+		(property "Reference" "#PWR0271"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10dee41e-1c16-4fbb-9af4-d47fb8f21620")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Switch_PushButton_TS3425BA")
+		(at 199.39 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09221369-c79e-4ccc-96d6-572005a14ee9")
+		(property "Reference" "SW5"
+			(at 203.2 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "persional_library:SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS3425BA/2774819.html"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:椭圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4.2mm;开关宽度:3.2mm;开关高度:2.5mm;带支架:不带支架;触点电流:50mA;额定电压:12V;工作寿命:10万次;"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS3425BA"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2681476"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.2*3.2*2.5mm 立贴 轻触开关"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "737054cb-71e1-4bd2-a6bf-227e85449432")
+		)
+		(pin "1"
+			(uuid "6d551846-492c-4714-846a-8fa6b8a27c5f")
+		)
+		(pin "2"
+			(uuid "df00a2ca-1e3d-4f1e-a9c9-ee72e8dd94b3")
+		)
+		(pin "4"
+			(uuid "c742ab90-52c7-4fdc-aa1d-e9e0ead35c98")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "persional_library:Switch_PushButton_TS3425BA")
@@ -3229,6 +4489,140 @@
 			(project ""
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 177.8 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d946630-d6bc-4700-81cb-91d79798bb6f")
+		(property "Reference" "#PWR0273"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c59eede4-adf3-439e-827a-a1d6624fd054")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "105d563f-1ded-4c0c-b656-90de423fe8ba")
+		(property "Reference" "#PWR0279"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8186e379-40f2-414b-bd0d-58bd28815450")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0279")
 					(unit 1)
 				)
 			)
@@ -3457,6 +4851,185 @@
 			(project ""
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:R0603")
+		(at 251.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2082754a-5803-43f4-a41e-70cf452e646b")
+		(property "Reference" "R96"
+			(at 255.524 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 246.634 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:R0603"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25804"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e687ae9b-8d56-4326-86d3-fe0eba2d5412")
+		)
+		(pin "1"
+			(uuid "722f5a64-9d04-416a-bfa4-731bfbedecb7")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "226906c4-5bd6-4f41-a5e1-b9a90aa4d3ef")
+		(property "Reference" "#PWR0278"
+			(at 227.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b5b379f-5ab1-4850-a1a8-7823805b24f9")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -3776,6 +5349,265 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:Connect_GH1.25_3P_Horizontal")
+		(at 78.74 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "315ccf53-d2a4-448c-842b-f6ffb93ec14a")
+		(property "Reference" "CN1"
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "persional_library:CONN-TH_3P-P1.25_GH1.25"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220527/CB8773BFB0913C3B8ABD62CB38BA101A.pdf"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "插针结构:1x3P;间距:1.25mm;安装方式:卧贴;参考系列:GH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:1A;触头材质:黄铜;触头镀层:-;工作温度范围:-25°C~+85°C;"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "WAFER-GH1.25-3PWB"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C3029378"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x3P 间距:1.25mm 卧贴 系列:GH"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88682f7a-6d91-4a50-874f-c9a92f017c45")
+		)
+		(pin "5"
+			(uuid "94b42497-e857-42b1-ac7d-da32f551fa00")
+		)
+		(pin "3"
+			(uuid "e8cfd8b4-a7e4-4dd2-b585-956702e31fa3")
+		)
+		(pin "2"
+			(uuid "e6bde3a9-e477-4f6f-8e44-9098731359fe")
+		)
+		(pin "4"
+			(uuid "cb9588b8-a09b-4bd3-af4a-e419452f3a3b")
+		)
+		(instances
+			(project ""
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 113.03 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3295f009-a4a6-4b2d-bcb6-95d7c8310fe7")
+		(property "Reference" "#PWR0266"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 116.84 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74e9f9a1-1d77-4566-8ce1-e2f0dbc1e8e6")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37ba1dee-1bea-446a-8c23-9a581bf96878")
+		(property "Reference" "#PWR0284"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75b29e83-2989-4a28-a2b1-ef83166126a3")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 27.94 52.07 0)
 		(unit 1)
@@ -3836,6 +5668,207 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "416a0cdd-2992-4b12-bb2b-fbf30da7b997")
+		(property "Reference" "#PWR0270"
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b31db9f5-a7a8-4d0c-baae-bab4074ecf9e")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 113.03 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42152f93-1339-47e9-b043-af4cb78b84eb")
+		(property "Reference" "#PWR0268"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 116.84 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 113.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab15af7a-f013-440f-ae7b-d28742efe40d")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 256.54 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "427be09a-8429-44e9-9eea-85f7e933f1d5")
+		(property "Reference" "#PWR0281"
+			(at 252.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 260.35 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf5ac91d-a3a6-495d-833d-cc021f9539b1")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0281")
 					(unit 1)
 				)
 			)
@@ -4021,6 +6054,232 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:C0603")
+		(at 199.39 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55de3695-8970-4e6e-8f7d-8de35fb77344")
+		(property "Reference" "C112"
+			(at 201.168 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 197.866 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab0e56c3-6705-4c0d-a69d-8a279d4df785")
+		)
+		(pin "2"
+			(uuid "49f14e12-031d-4148-a354-abab30a1c3f8")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "C112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:C0603")
+		(at 160.02 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55df485e-7f6b-4064-bbdc-1b2fc1b4f151")
+		(property "Reference" "C111"
+			(at 161.798 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 158.496 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6e2b937-d320-4f8b-b25b-0ad14e251a0e")
+		)
+		(pin "2"
+			(uuid "5c99c9db-434c-43b0-a172-598b1d3a7489")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "persional_library:R0603")
 		(at 114.3 100.33 0)
 		(unit 1)
@@ -4127,6 +6386,194 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c07515d-0a47-46e3-9406-60f78c3f1d6e")
+		(property "Reference" "#PWR0277"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 220.98 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7073c9be-bb67-43fe-9ced-d3bf6565a242")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Switch_PushButton_TS3425BA")
+		(at 238.76 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e716f01-2ebc-4e96-8de7-012fa931d00b")
+		(property "Reference" "SW7"
+			(at 242.57 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 242.57 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "persional_library:SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS3425BA/2774819.html"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:椭圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4.2mm;开关宽度:3.2mm;开关高度:2.5mm;带支架:不带支架;触点电流:50mA;额定电压:12V;工作寿命:10万次;"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS3425BA"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2681476"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.2*3.2*2.5mm 立贴 轻触开关"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5d8af044-43b5-4462-b7e7-b58a88f8c253")
+		)
+		(pin "1"
+			(uuid "eb33e845-1fde-4ae9-b35b-da16d3554704")
+		)
+		(pin "2"
+			(uuid "0ff7fa53-5469-4eb9-9cb1-7e6397d1b74d")
+		)
+		(pin "4"
+			(uuid "245e5258-1be7-4af5-9dc5-0c1f2ec4f234")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4379,6 +6826,231 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:R0603")
+		(at 212.09 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665d9397-9f21-4d0a-8711-14f8b8d78b11")
+		(property "Reference" "R95"
+			(at 216.154 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 207.264 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:R0603"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25804"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fd9ea60-ad43-40b9-968f-ec8c6d56c6ba")
+		)
+		(pin "1"
+			(uuid "ce27090c-14fb-4cda-9b5d-e97aab296161")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:C0603")
+		(at 199.39 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e857cb-0e62-4271-92a9-98198ad9a53f")
+		(property "Reference" "C113"
+			(at 201.168 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 197.866 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad58ff8-b1db-4be4-b141-8e954694fbc5")
+		)
+		(pin "2"
+			(uuid "db4b9576-b08c-4066-aca8-b07b795a2d3c")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 110.49 90)
 		(unit 1)
@@ -4507,6 +7179,118 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "#PWR0241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:R0603")
+		(at 251.46 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7447cc24-025f-4d64-b3ce-e7a34d8cf5a5")
+		(property "Reference" "R97"
+			(at 255.524 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 246.634 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:R0603"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25804"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d9defec-ea4c-48ff-9398-fad587cea2de")
+		)
+		(pin "1"
+			(uuid "f75ad091-dde3-4fb7-afa5-2b21d85fa806")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -4707,6 +7491,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76d2d1b8-8bdd-480b-b244-99564133062a")
+		(property "Reference" "#PWR0272"
+			(at 148.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3895028a-f75c-4778-a28b-c73b3ce86ee3")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "persional_library:C0603")
 		(at 48.26 72.39 90)
 		(unit 1)
@@ -4820,6 +7671,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "887e2ef3-d031-4283-b482-6620382013ff")
+		(property "Reference" "#PWR0267"
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "074eaf4d-c124-46ee-b72c-7a228e310739")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 256.54 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dbd41a0-08e5-45c5-ac18-76fe2f41a02b")
+		(property "Reference" "#PWR0280"
+			(at 252.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 260.35 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7439ede-98c1-4cec-a418-db71d786d8a8")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0280")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 35.56 39.37 270)
 		(unit 1)
@@ -4881,6 +7866,259 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a2e730-2e6b-41d2-8e8c-4c20d3537bf6")
+		(property "Reference" "#PWR0282"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50f631e4-c957-4ac2-94f9-78cdca84a551")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Connect_XH2.54_1x4P")
+		(at 107.95 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "940db2d0-8136-43ce-bb56-373a3df4aded")
+		(property "Reference" "H1"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:HDR-TH_4P-P2.54-V-M"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-04P/2801085.html"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "插针结构:1x4P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:4P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度:-40°C~+105°C;颜色:黑色;"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PZ254V-11-04P"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN(兴飞)"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2691448"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x4P 间距:2.54mm 方针 直插"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29f0afd3-0357-44e7-959d-5e47bfca9411")
+		)
+		(pin "1"
+			(uuid "4ce87ee6-6317-480a-9363-333f5e0171eb")
+		)
+		(pin "3"
+			(uuid "bd3adc1b-f5e3-4b83-815b-a9b25f966e04")
+		)
+		(pin "4"
+			(uuid "c1181b8e-fd43-4afc-b07d-9283836a56a3")
+		)
+		(instances
+			(project ""
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9accb47f-373d-41f6-89ab-9f5b5cd7adfe")
+		(property "Reference" "#PWR0269"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d100a970-dd24-457a-8f06-6d682124c4df")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0269")
 					(unit 1)
 				)
 			)
@@ -5272,6 +8510,464 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:R0603")
+		(at 212.09 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9a29798-6d14-4e8b-bd31-0d90deddb204")
+		(property "Reference" "R94"
+			(at 216.154 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 207.264 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:R0603"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25804"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bce09888-52ca-43a1-81d8-1cc8b4d7ad1c")
+		)
+		(pin "1"
+			(uuid "b5e15404-3e94-404f-a0b3-605ef31c6db3")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:R0603")
+		(at 172.72 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f7e8c8-481a-4f49-bb1d-5d60a7ffacb1")
+		(property "Reference" "R93"
+			(at 176.784 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 167.894 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:R0603"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25804"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2d6bdeb-e4f1-4739-8a92-ef81b9797195")
+		)
+		(pin "1"
+			(uuid "25c7edaf-191f-4129-8344-30eb3eb3db54")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:C0603")
+		(at 238.76 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6823a3-fa48-489d-9d65-8a1c07e48588")
+		(property "Reference" "C114"
+			(at 240.538 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 237.236 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654319cb-1449-4acc-a568-fa0b7ca6b91b")
+		)
+		(pin "2"
+			(uuid "ee9d0c45-eb5f-411d-b4e0-0dab69404bae")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Switch_PushButton_TS3425BA")
+		(at 199.39 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf0e879-ede4-48d5-b18c-4741a0c7136f")
+		(property "Reference" "SW4"
+			(at 203.2 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "persional_library:SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS3425BA/2774819.html"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:椭圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4.2mm;开关宽度:3.2mm;开关高度:2.5mm;带支架:不带支架;触点电流:50mA;额定电压:12V;工作寿命:10万次;"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS3425BA"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2681476"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.2*3.2*2.5mm 立贴 轻触开关"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "64d259a0-bcf2-4135-ac21-9ce38779a93b")
+		)
+		(pin "1"
+			(uuid "18118ef6-73e3-4a73-b53c-497c7993cc15")
+		)
+		(pin "2"
+			(uuid "66fba1a4-8454-4ee0-9f5f-a4de347837ab")
+		)
+		(pin "4"
+			(uuid "95a810a1-579c-4953-a959-a3967c039709")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 43.18 67.31 0)
 		(unit 1)
@@ -5585,6 +9281,185 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:C0603")
+		(at 160.02 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3998fdd-67b4-4d56-8b56-a68b293daa34")
+		(property "Reference" "C110"
+			(at 161.798 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 158.496 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "679ad3c5-389b-4b24-a4f6-61e5ec2c35c7")
+		)
+		(pin "2"
+			(uuid "edaacc75-fb53-4edb-9d36-a690f5651232")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "C110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d52dc1ff-1a27-47ce-9c1e-8d44c64dd63f")
+		(property "Reference" "#PWR0283"
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa8562f-fc27-4655-83bf-cd3254e89106")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0283")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "persional_library:R0603")
 		(at 237.49 62.23 0)
 		(unit 1)
@@ -5691,6 +9566,435 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d83d86cc-22b1-4d93-ae13-0002c0e72efa")
+		(property "Reference" "#PWR0275"
+			(at 187.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01a15221-2324-4834-9c79-fdeaff844baf")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Connect_XH2.54_1x4P")
+		(at 107.95 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc684f3c-7d82-41c3-82a7-8db906f1a26e")
+		(property "Reference" "H2"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:HDR-TH_4P-P2.54-V-M"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-04P/2801085.html"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "插针结构:1x4P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:4P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度:-40°C~+105°C;颜色:黑色;"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PZ254V-11-04P"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN(兴飞)"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2691448"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x4P 间距:2.54mm 方针 直插"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0afd16a-9731-4309-842b-49dfb21db8b2")
+		)
+		(pin "1"
+			(uuid "e1a035a3-e1a2-47c3-b921-c051aea36f84")
+		)
+		(pin "3"
+			(uuid "9a466266-1466-48af-8086-047191541cc7")
+		)
+		(pin "4"
+			(uuid "26c7f096-0492-4663-af9b-f8d23459dc49")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Switch_PushButton_TS3425BA")
+		(at 160.02 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcbc872f-580c-44b2-87f6-f6ae413aefb3")
+		(property "Reference" "SW2"
+			(at 163.83 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "persional_library:SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS3425BA/2774819.html"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:椭圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4.2mm;开关宽度:3.2mm;开关高度:2.5mm;带支架:不带支架;触点电流:50mA;额定电压:12V;工作寿命:10万次;"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS3425BA"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2681476"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.2*3.2*2.5mm 立贴 轻触开关"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7dcc0f7-97b0-4e33-9dc6-1f2c39a9081c")
+		)
+		(pin "1"
+			(uuid "5deb55fa-5283-4c19-a610-449ed4951ca0")
+		)
+		(pin "2"
+			(uuid "30b5dec1-2fa2-48f6-a8c5-a322940a53f8")
+		)
+		(pin "4"
+			(uuid "b9b027d7-3be9-421f-9cce-b15481030b86")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Switch_PushButton_TS3425BA")
+		(at 160.02 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34c1fed-154a-4b74-9999-b98e21e5e621")
+		(property "Reference" "SW3"
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "persional_library:SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS3425BA/2774819.html"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:椭圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4.2mm;开关宽度:3.2mm;开关高度:2.5mm;带支架:不带支架;触点电流:50mA;额定电压:12V;工作寿命:10万次;"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS3425BA"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2681476"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.2*3.2*2.5mm 立贴 轻触开关"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a2f547a0-3db8-4ae3-910a-4f3402ef0c9b")
+		)
+		(pin "1"
+			(uuid "4ca7d5ab-816b-4cea-9455-937795abe77d")
+		)
+		(pin "2"
+			(uuid "7b1e7934-090a-433e-b69b-47b5eab44f62")
+		)
+		(pin "4"
+			(uuid "b6c44e59-4320-4055-992f-029a505777e7")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5809,6 +10113,306 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:Switch_PushButton_TS3425BA")
+		(at 238.76 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efed9fde-ba3b-4d38-97f0-105c987da019")
+		(property "Reference" "SW6"
+			(at 242.57 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 242.57 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "persional_library:SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-1"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS3425BA/2774819.html"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:椭圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4.2mm;开关宽度:3.2mm;开关高度:2.5mm;带支架:不带支架;触点电流:50mA;额定电压:12V;工作寿命:10万次;"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS3425BA"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2681476"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.2*3.2*2.5mm 立贴 轻触开关"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a21bce97-6cf6-4b5f-b33d-4ab0f9606e4e")
+		)
+		(pin "1"
+			(uuid "1159cdf9-111c-43f2-96d8-2e143f095399")
+		)
+		(pin "2"
+			(uuid "08b79006-4d0b-433e-b6c1-bb9c26c89bc9")
+		)
+		(pin "4"
+			(uuid "5dd14441-6196-426a-adfa-1c6190b96890")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2427aa4-a27d-4727-a24f-80a790aa42bd")
+		(property "Reference" "#PWR0274"
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16928e9-02c6-4ebf-a903-a455f45bbdf5")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:R0603")
+		(at 172.72 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4e95833-0040-4312-8801-3dc6e445d84e")
+		(property "Reference" "R92"
+			(at 176.784 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 167.894 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:R0603"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25804"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09b2b68e-ef4b-4ed8-90f5-4dd9cf28b758")
+		)
+		(pin "1"
+			(uuid "f2cfd81e-0bd7-4314-8fb4-af062154213e")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 46.99 90)
 		(unit 1)
@@ -5876,6 +10480,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8760aef-9d63-4329-b563-7cdcb8c7a499")
+		(property "Reference" "#PWR0276"
+			(at 213.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 220.98 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c8eab8c-1854-4f15-9dcd-78e011ae5cf4")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 100.33 270)
 		(unit 1)
@@ -5937,6 +10608,119 @@
 			(project "ChinoHub"
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
 					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:C0603")
+		(at 238.76 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbf777ad-71d4-4d00-8e5e-7f9e6b13ac54")
+		(property "Reference" "C115"
+			(at 240.538 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 237.236 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ff123d-0774-4aff-911a-80d50928856b")
+		)
+		(pin "2"
+			(uuid "139df668-bef6-4fc9-ac55-234f4387b196")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/fa5c6259-421f-49d7-9c81-83de5751bf6a"
+					(reference "C115")
 					(unit 1)
 				)
 			)

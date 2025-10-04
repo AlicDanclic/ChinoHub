@@ -57,6 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define HDMI_EN_Pin GPIO_PIN_1
+#define HDMI_EN_GPIO_Port GPIOB
 #define GPIO1_Pin GPIO_PIN_10
 #define GPIO1_GPIO_Port GPIOB
 #define GPIO2_Pin GPIO_PIN_11
@@ -83,8 +85,8 @@ void Error_Handler(void);
 #define HDMI_SEL2_GPIO_Port GPIOB
 #define HDMI_SEL1_Pin GPIO_PIN_4
 #define HDMI_SEL1_GPIO_Port GPIOB
-#define HDMI_EN_Pin GPIO_PIN_5
-#define HDMI_EN_GPIO_Port GPIOB
+#define HDMI_ENB5_Pin GPIO_PIN_5
+#define HDMI_ENB5_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
