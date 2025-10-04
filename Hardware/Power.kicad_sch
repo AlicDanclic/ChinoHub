@@ -435,6 +435,160 @@
 				)
 			)
 		)
+		(symbol "persional_library:F1206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "persional_library:F1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SMD1206-050-33"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "R+O(宏嘉诚)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C46641017"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "SMD1206-050-33"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "F1206_1_0"
+				(rectangle
+					(start -3.302 0.762)
+					(end 3.302 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "persional_library:L0630-2.2UH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2143,7 +2297,7 @@
 		)
 	)
 	(junction
-		(at 121.92 87.63)
+		(at 132.08 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04a10e77-d755-4296-b49e-aa0317809690")
@@ -2161,37 +2315,37 @@
 		(uuid "071249f4-efc9-477a-9cb8-b80eea52d7e1")
 	)
 	(junction
-		(at 91.44 49.53)
+		(at 100.33 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "077bbcb9-d844-495d-9edd-c3f32a7e942d")
 	)
 	(junction
-		(at 86.36 22.86)
+		(at 95.25 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09ce2bd3-8d02-4a57-b277-041be4c631d5")
 	)
 	(junction
-		(at 100.33 43.18)
+		(at 109.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a759562-dcd1-4784-b8a5-da86fcb4d5ac")
 	)
 	(junction
-		(at 161.29 22.86)
+		(at 173.99 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d28ce37-22e2-4989-99ab-375ae2ad5cc3")
 	)
 	(junction
-		(at 91.44 22.86)
+		(at 100.33 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d6a4c35-0b81-4796-95e6-7b5f01e528b7")
 	)
 	(junction
-		(at 121.92 43.18)
+		(at 130.81 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16608cc1-a2a2-4fae-89bf-9641aef26915")
@@ -2209,13 +2363,13 @@
 		(uuid "1ae972ac-754a-4a55-8364-32e7fd57b30b")
 	)
 	(junction
-		(at 121.92 22.86)
+		(at 130.81 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e76a526-f545-45b4-88e1-e3b63557fca5")
 	)
 	(junction
-		(at 86.36 67.31)
+		(at 96.52 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20e9f8ac-b3f3-47b1-b72e-0af04fce119d")
@@ -2251,7 +2405,7 @@
 		(uuid "2ba0ee11-e072-47df-87b6-8ba94c0b5522")
 	)
 	(junction
-		(at 161.29 43.18)
+		(at 173.99 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3243879c-9856-4b7d-a9e8-55c1c8cc9494")
@@ -2263,7 +2417,7 @@
 		(uuid "387fada1-1bb0-4056-b2fc-60d4d44a4c64")
 	)
 	(junction
-		(at 91.44 67.31)
+		(at 101.6 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c0538a3-3f61-4d0c-b5a7-96b29825b12a")
@@ -2275,7 +2429,7 @@
 		(uuid "3d673579-68e8-4863-9446-309827f0d1cb")
 	)
 	(junction
-		(at 152.4 22.86)
+		(at 165.1 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "444de885-5d7f-46c1-8a28-b43dcbedac4a")
@@ -2299,7 +2453,7 @@
 		(uuid "5af6c139-9c1b-4681-a678-8b6c7ec56a5b")
 	)
 	(junction
-		(at 182.88 43.18)
+		(at 195.58 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c49987a-6a82-45dd-acd6-9f1aa376fb5d")
@@ -2317,7 +2471,7 @@
 		(uuid "5f240c5e-47d9-43ac-93c6-90aeed3ed945")
 	)
 	(junction
-		(at 182.88 22.86)
+		(at 195.58 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63d3aed9-fdb1-4c44-8244-6368a9152cc5")
@@ -2335,7 +2489,7 @@
 		(uuid "67c4c42f-8594-4cbd-b22c-d46804375729")
 	)
 	(junction
-		(at 100.33 22.86)
+		(at 109.22 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68e043bc-50ef-4f8e-acae-4a3a1a0eec55")
@@ -2371,19 +2525,19 @@
 		(uuid "77573a81-a812-47fa-9e52-5d8cbfe70d6f")
 	)
 	(junction
-		(at 152.4 49.53)
+		(at 165.1 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b87ff67-bf89-4336-905a-bcd8c6593a79")
 	)
 	(junction
-		(at 100.33 87.63)
+		(at 110.49 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "907f5c37-278c-4cf4-87b3-2808a0f98061")
 	)
 	(junction
-		(at 121.92 67.31)
+		(at 132.08 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab8f7be-2de2-4ab0-95a4-686a0459d4d1")
@@ -2413,7 +2567,7 @@
 		(uuid "ab514655-3cfe-4f8f-9f43-28e3ee456796")
 	)
 	(junction
-		(at 107.95 34.29)
+		(at 116.84 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac9558c3-baa5-48f6-ad40-b7d68b81f8b2")
@@ -2479,7 +2633,7 @@
 		(uuid "dd2c4e89-996f-4f52-9ad3-ace90b3c7969")
 	)
 	(junction
-		(at 147.32 22.86)
+		(at 160.02 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e565aeed-1fcf-4b5e-9bf1-8feed8f2b82a")
@@ -2491,19 +2645,19 @@
 		(uuid "e74401f2-46fb-47da-b5e8-618e7c98a237")
 	)
 	(junction
-		(at 91.44 93.98)
+		(at 101.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e81fa5da-faaf-40de-b33c-be8fc03f4f58")
 	)
 	(junction
-		(at 107.95 78.74)
+		(at 118.11 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e87700f5-e06c-4fe2-aa0f-b5d732a75fa0")
 	)
 	(junction
-		(at 168.91 34.29)
+		(at 181.61 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec4bb226-b767-4f63-8c7f-4b5dd73f94a1")
@@ -2527,7 +2681,7 @@
 		(uuid "f555deb3-df32-49d3-8e74-1cb26db8bf18")
 	)
 	(junction
-		(at 100.33 67.31)
+		(at 110.49 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f560bcf3-cae2-4dc4-adf2-0d8a08f9d165")
@@ -2544,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 168.91 43.18)
+			(xy 181.61 34.29) (xy 181.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 121.92 86.36)
+			(xy 132.08 87.63) (xy 132.08 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 86.36 49.53)
+			(xy 95.25 43.18) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 71.12)
+			(xy 110.49 67.31) (xy 110.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2684,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 121.92 41.91)
+			(xy 130.81 43.18) (xy 130.81 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 100.33 43.18)
+			(xy 116.84 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2734,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 111.76 43.18)
+			(xy 120.65 27.94) (xy 120.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 22.86) (xy 116.84 22.86)
+			(xy 130.81 22.86) (xy 125.73 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 43.18) (xy 182.88 41.91)
+			(xy 195.58 43.18) (xy 195.58 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 152.4 43.18)
+			(xy 165.1 49.53) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 107.95 43.18)
+			(xy 116.84 34.29) (xy 116.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 22.86) (xy 147.32 33.02)
+			(xy 160.02 22.86) (xy 160.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 43.18) (xy 161.29 43.18)
+			(xy 181.61 43.18) (xy 173.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 67.31) (xy 86.36 67.31)
+			(xy 93.98 67.31) (xy 96.52 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 100.33 87.63)
+			(xy 118.11 87.63) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 161.29 43.18)
+			(xy 173.99 44.45) (xy 173.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 91.44 49.53)
+			(xy 100.33 54.61) (xy 100.33 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 88.9) (xy 121.92 87.63)
+			(xy 132.08 88.9) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 100.33 67.31)
+			(xy 101.6 67.31) (xy 110.49 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 116.84 67.31)
+			(xy 132.08 67.31) (xy 127 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3278,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 33.02) (xy 152.4 22.86)
+			(xy 165.1 33.02) (xy 165.1 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 22.86) (xy 100.33 22.86)
+			(xy 115.57 22.86) (xy 109.22 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 152.4 49.53)
+			(xy 165.1 54.61) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 22.86) (xy 100.33 22.86)
+			(xy 100.33 22.86) (xy 109.22 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 33.02) (xy 91.44 22.86)
+			(xy 100.33 33.02) (xy 100.33 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3274,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 182.88 43.18)
+			(xy 185.42 43.18) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 43.18) (xy 147.32 49.53)
+			(xy 160.02 43.18) (xy 160.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3294,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 114.3 78.74)
+			(xy 118.11 78.74) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 93.98) (xy 91.44 93.98)
+			(xy 96.52 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3334,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 77.47) (xy 91.44 67.31)
+			(xy 101.6 77.47) (xy 101.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3344,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 22.86) (xy 86.36 22.86)
+			(xy 92.71 22.86) (xy 95.25 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3374,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 93.98) (xy 91.44 87.63)
+			(xy 101.6 93.98) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 27.94) (xy 172.72 43.18)
+			(xy 185.42 27.94) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3474,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 49.53) (xy 91.44 49.53)
+			(xy 95.25 49.53) (xy 100.33 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 121.92 67.31)
+			(xy 132.08 71.12) (xy 132.08 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3504,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 161.29 41.91)
+			(xy 173.99 43.18) (xy 173.99 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3544,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 91.44 67.31)
+			(xy 96.52 67.31) (xy 101.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 44.45) (xy 182.88 43.18)
+			(xy 195.58 44.45) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 152.4 49.53)
+			(xy 160.02 49.53) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3634,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 114.3 34.29)
+			(xy 116.84 34.29) (xy 123.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3644,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 44.45) (xy 121.92 43.18)
+			(xy 130.81 44.45) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3674,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 121.92 87.63)
+			(xy 121.92 87.63) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 22.86) (xy 161.29 22.86)
+			(xy 180.34 22.86) (xy 173.99 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3694,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 26.67) (xy 121.92 22.86)
+			(xy 130.81 26.67) (xy 130.81 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3714,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 175.26 34.29)
+			(xy 181.61 34.29) (xy 187.96 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3754,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 22.86) (xy 147.32 22.86)
+			(xy 157.48 22.86) (xy 160.02 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3764,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 100.33 67.31)
+			(xy 116.84 67.31) (xy 110.49 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3774,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 22.86) (xy 152.4 22.86)
+			(xy 160.02 22.86) (xy 165.1 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3784,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 22.86) (xy 100.33 26.67)
+			(xy 109.22 22.86) (xy 109.22 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3794,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 87.63) (xy 86.36 93.98)
+			(xy 96.52 87.63) (xy 96.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3804,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 22.86) (xy 177.8 22.86)
+			(xy 195.58 22.86) (xy 190.5 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3834,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 26.67) (xy 182.88 22.86)
+			(xy 195.58 26.67) (xy 195.58 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3864,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 100.33 41.91)
+			(xy 109.22 43.18) (xy 109.22 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3884,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 22.86) (xy 86.36 33.02)
+			(xy 95.25 22.86) (xy 95.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3894,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 86.36 77.47)
+			(xy 96.52 67.31) (xy 96.52 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 91.44 43.18)
+			(xy 100.33 49.53) (xy 100.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3924,7 +4078,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 100.33 87.63)
+			(xy 110.49 88.9) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3954,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 100.33 86.36)
+			(xy 110.49 87.63) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +4128,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 121.92 43.18)
+			(xy 120.65 43.18) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3984,7 +4138,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 44.45) (xy 100.33 43.18)
+			(xy 109.22 44.45) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3994,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 22.86) (xy 161.29 22.86)
+			(xy 165.1 22.86) (xy 173.99 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4014,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 22.86) (xy 91.44 22.86)
+			(xy 95.25 22.86) (xy 100.33 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4034,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 91.44 93.98)
+			(xy 101.6 99.06) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4064,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 107.95 87.63)
+			(xy 118.11 78.74) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4094,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 22.86) (xy 161.29 26.67)
+			(xy 173.99 22.86) (xy 173.99 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4104,7 +4258,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 72.39) (xy 111.76 87.63)
+			(xy 121.92 72.39) (xy 121.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4132,27 +4286,16 @@
 		)
 		(uuid "ffeb658b-3b81-4eb7-ac0b-ac4d181e646d")
 	)
-	(hierarchical_label "TypeC_1_5V"
+	(hierarchical_label "HDMI_VBUS"
 		(shape output)
-		(at 25.4 22.86 180)
+		(at 147.32 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1ca4f4b5-0156-4a9f-9e64-bce9cf01d590")
-	)
-	(hierarchical_label "TMDS_5V"
-		(shape input)
-		(at 25.4 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e0347aa-1e43-4037-af49-db43a9270878")
+		(uuid "4bde61b6-bb22-44ac-b08e-aa5de9ccb723")
 	)
 	(hierarchical_label "TypeC_4_5V"
 		(shape output)
@@ -4163,40 +4306,51 @@
 			)
 			(justify right)
 		)
-		(uuid "7a0b2008-1bda-48bf-95f0-f0d7742776d9")
-	)
-	(hierarchical_label "HDMI_VBUS"
-		(shape output)
-		(at 144.78 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d75346ed-a765-4513-ba72-e21e50ad602f")
-	)
-	(hierarchical_label "TypeC_2_5V"
-		(shape output)
-		(at 83.82 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5b8958d-e594-4b85-91cb-6706756f4b42")
+		(uuid "5ee85614-ffcd-472e-8a4c-a345597c8882")
 	)
 	(hierarchical_label "TypeC_3_5V"
 		(shape output)
-		(at 25.4 67.31 180)
+		(at 15.24 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e7185b0e-08ce-413e-abb7-d98d3296dc64")
+		(uuid "610f6d11-5277-4290-8cfc-74159b535cb7")
+	)
+	(hierarchical_label "TMDS_5V"
+		(shape input)
+		(at 15.24 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cf7bf65-2501-40c5-b407-cadcbad29f93")
+	)
+	(hierarchical_label "TypeC_1_5V"
+		(shape output)
+		(at 15.24 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ef55b2e-1d5b-4520-bc91-77316150b763")
+	)
+	(hierarchical_label "TypeC_2_5V"
+		(shape output)
+		(at 82.55 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e60b987e-6827-4e8e-a9ae-035d9932600a")
 	)
 	(symbol
 		(lib_id "persional_library:C0603")
@@ -4313,7 +4467,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:R0603")
-		(at 121.92 49.53 270)
+		(at 130.81 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4321,7 +4475,7 @@
 		(dnp no)
 		(uuid "03fecdda-39dd-44b0-9b4f-dc1059f4d383")
 		(property "Reference" "R67"
-			(at 119.38 47.752 90)
+			(at 128.27 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4483,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 120.396 45.974 90)
+			(at 129.286 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4491,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4500,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4509,7 @@
 			)
 		)
 		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4518,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4527,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4536,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4545,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4554,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 121.92 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4823,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
-		(at 118.11 34.29 0)
+		(at 127 34.29 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4678,7 +4832,7 @@
 		(dnp no)
 		(uuid "08a26cd4-9624-4342-a249-383bda0743a0")
 		(property "Reference" "Q6"
-			(at 123.19 34.29 0)
+			(at 132.08 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4841,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 123.19 35.56 0)
+			(at 132.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4850,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4868,7 @@
 			)
 		)
 		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4877,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MMBT4403LT1G"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4886,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4895,7 @@
 			)
 		)
 		(property "Supplier Part" "C78864"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4904,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4913,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PNP 电流:600mA 电压:40V"
-			(at 118.11 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5236,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
-		(at 165.1 34.29 180)
+		(at 177.8 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5091,7 +5245,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e34edcf-de4f-4975-b88d-db4110c6c54f")
 		(property "Reference" "Q13"
-			(at 160.02 34.29 0)
+			(at 172.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5254,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 160.02 35.56 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5263,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5272,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5281,7 @@
 			)
 		)
 		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5290,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MMBT4403LT1G"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5299,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5308,7 @@
 			)
 		)
 		(property "Supplier Part" "C78864"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5317,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5326,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PNP 电流:600mA 电压:40V"
-			(at 165.1 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5354,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:TVS_Diode_SMBJ5.0A")
-		(at 86.36 38.1 270)
+		(at 95.25 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5208,7 +5362,7 @@
 		(dnp no)
 		(uuid "2055d71a-dba2-4f7e-91d6-d4f44f682e5e")
 		(property "Reference" "D2"
-			(at 86.614 34.544 90)
+			(at 95.504 34.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5371,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 38.862 90)
+			(at 99.06 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5380,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5389,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMBJ5.0A/180833.html"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5398,7 @@
 			)
 		)
 		(property "Description" "极性:单向;反向截止电压(Vrwm):5V;钳位电压:9.2V;峰值脉冲电流(Ipp):65.3A@10/1000us;峰值脉冲功率(Ppp):600W@10/1000us;击穿电压:7V;"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5407,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMBJ5.0A"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5416,7 @@
 			)
 		)
 		(property "Manufacturer" "晶导微电子"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5425,7 @@
 			)
 		)
 		(property "Supplier Part" "C169448"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5434,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5443,7 @@
 			)
 		)
 		(property "LCSC Part Name" "单向TVS 5V截止 峰值浪涌电流：65.3A@10/1000us"
-			(at 86.36 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5468,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:R0603")
-		(at 100.33 93.98 270)
+		(at 110.49 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5322,7 +5476,7 @@
 		(dnp no)
 		(uuid "20728d35-c6ff-4db3-adb6-630eccc0aed8")
 		(property "Reference" "R70"
-			(at 97.79 92.202 90)
+			(at 107.95 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5484,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 98.806 90.424 90)
+			(at 108.966 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5492,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5501,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5510,7 @@
 			)
 		)
 		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5519,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5528,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5537,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5546,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5555,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 100.33 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,16 +5647,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 54.61 0)
+		(at 109.22 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21b785ce-6fd0-47db-bd47-d13de3c0bc55")
 		(property "Reference" "#PWR0159"
-			(at 100.33 60.96 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 59.69 0)
+			(at 109.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 54.61 0)
+			(at 109.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 54.61 0)
+			(at 109.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 54.61 0)
+			(at 109.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 54.61 0)
+		(at 165.1 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5568,7 +5721,7 @@
 		(fields_autoplaced yes)
 		(uuid "21eaf4c1-c312-40e3-9ef4-ad23fca6b1e5")
 		(property "Reference" "#PWR0136"
-			(at 152.4 60.96 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 59.69 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 54.61 0)
+			(at 165.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 54.61 0)
+			(at 165.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 54.61 0)
+			(at 165.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5778,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 121.92 67.31 270)
+		(at 132.08 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5634,7 +5787,7 @@
 		(fields_autoplaced yes)
 		(uuid "29af4a2b-2ff1-4dd4-a5e2-05bcb9fb9dd7")
 		(property "Reference" "#PWR0169"
-			(at 118.11 67.31 0)
+			(at 128.27 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5796,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 125.73 67.31 90)
+			(at 135.89 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 67.31 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 67.31 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 67.31 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,44 +5956,33 @@
 		)
 	)
 	(symbol
-		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
-		(at 118.11 78.74 0)
-		(mirror x)
+		(lib_id "persional_library:F1206")
+		(at 20.32 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e8168e7-3803-4d5f-8173-2950a8d97fdf")
-		(property "Reference" "Q12"
-			(at 123.19 78.74 0)
+		(fields_autoplaced yes)
+		(uuid "2c366168-9b25-424c-9141-83250db73b82")
+		(property "Reference" "F1"
+			(at 20.32 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 123.19 80.01 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 118.11 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
-			(at 118.11 78.74 0)
+		(property "Footprint" "persional_library:F1206"
+			(at 20.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,8 +5990,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
-			(at 118.11 78.74 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+			(at 20.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,8 +5999,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "MMBT4403LT1G"
-			(at 118.11 78.74 0)
+		(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+			(at 20.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,8 +6008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi(安森美)"
-			(at 118.11 78.74 0)
+		(property "Manufacturer Part" "SMD1206-050-33"
+			(at 20.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,8 +6017,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C78864"
-			(at 118.11 78.74 0)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 20.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C46641017"
+			(at 20.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +6036,122 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 118.11 78.74 0)
+			(at 20.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SMD1206-050-33"
+			(at 20.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "259b0a18-e6e9-44a0-8346-30250070401e")
+		)
+		(pin "1"
+			(uuid "88a44bc7-2d73-4342-a4a4-92d71a6d26dd")
+		)
+		(instances
+			(project ""
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
+		(at 128.27 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e8168e7-3803-4d5f-8173-2950a8d97fdf")
+		(property "Reference" "Q12"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MMBT4403LT1G"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C78864"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +6160,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PNP 电流:600mA 电压:40V"
-			(at 118.11 78.74 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,6 +6890,119 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:F1206")
+		(at 88.9 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43217d5a-a250-449b-b741-e04c88f01dc1")
+		(property "Reference" "F4"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:F1206"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMD1206-050-33"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C46641017"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SMD1206-050-33"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8897f55-c96c-4525-b9dc-0aa7759f4e9b")
+		)
+		(pin "1"
+			(uuid "80896264-0c3e-44b9-af46-06932a6e5be2")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "persional_library:C0603")
 		(at 33.02 38.1 90)
 		(unit 1)
@@ -7142,7 +7521,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
-		(at 104.14 34.29 180)
+		(at 113.03 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7151,7 +7530,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e5735d8-e010-4a31-9e96-5e8f2c50d0bd")
 		(property "Reference" "Q4"
-			(at 99.06 34.29 0)
+			(at 107.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7539,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 99.06 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7548,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7557,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7566,7 @@
 			)
 		)
 		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7575,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MMBT4403LT1G"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7584,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7593,7 @@
 			)
 		)
 		(property "Supplier Part" "C78864"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7602,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +7611,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PNP 电流:600mA 电压:40V"
-			(at 104.14 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7639,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:TVS_Diode_SMBJ5.0A")
-		(at 147.32 38.1 270)
+		(at 160.02 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7268,7 +7647,7 @@
 		(dnp no)
 		(uuid "514677aa-1c84-4c31-8d86-cc40bac8539a")
 		(property "Reference" "D5"
-			(at 147.574 34.544 90)
+			(at 160.274 34.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7656,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 151.13 38.862 90)
+			(at 163.83 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +7665,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +7674,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMBJ5.0A/180833.html"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7683,7 @@
 			)
 		)
 		(property "Description" "极性:单向;反向截止电压(Vrwm):5V;钳位电压:9.2V;峰值脉冲电流(Ipp):65.3A@10/1000us;峰值脉冲功率(Ppp):600W@10/1000us;击穿电压:7V;"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7692,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMBJ5.0A"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7701,7 @@
 			)
 		)
 		(property "Manufacturer" "晶导微电子"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7710,7 @@
 			)
 		)
 		(property "Supplier Part" "C169448"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7719,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7728,7 @@
 			)
 		)
 		(property "LCSC Part Name" "单向TVS 5V截止 峰值浪涌电流：65.3A@10/1000us"
-			(at 147.32 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7871,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 99.06 0)
+		(at 101.6 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7501,7 +7880,7 @@
 		(fields_autoplaced yes)
 		(uuid "521cdeb8-84be-4acf-9136-6c662a3782ed")
 		(property "Reference" "#PWR0164"
-			(at 91.44 105.41 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 104.14 0)
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 99.06 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 99.06 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 99.06 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +8049,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:C0603")
-		(at 91.44 82.55 90)
+		(at 101.6 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7678,7 +8057,7 @@
 		(dnp no)
 		(uuid "56c47e89-4c4a-49a0-a5b5-2fe258f48148")
 		(property "Reference" "C93"
-			(at 91.694 84.328 90)
+			(at 101.854 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +8066,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 92.964 81.026 90)
+			(at 103.124 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +8074,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:C0603"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +8083,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +8092,7 @@
 			)
 		)
 		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +8101,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10A105KB8NNNC"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +8110,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +8119,7 @@
 			)
 		)
 		(property "Supplier Part" "C15849"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +8128,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +8137,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 91.44 82.55 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,6 +8269,119 @@
 			(project ""
 				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:F1206")
+		(at 20.32 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e1b2ece-7bea-4af0-863c-69b08e1097ee")
+		(property "Reference" "F3"
+			(at 20.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 20.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:F1206"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMD1206-050-33"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C46641017"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SMD1206-050-33"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cb09338-23cc-40af-b8cd-ff886b6b1972")
+		)
+		(pin "1"
+			(uuid "adc3daa3-526b-429a-8037-cc74f17dc409")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -8189,7 +8681,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
-		(at 179.07 34.29 0)
+		(at 191.77 34.29 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8198,7 +8690,7 @@
 		(dnp no)
 		(uuid "6309ecf7-b5d1-4cb3-bdb1-290dc67c4ae4")
 		(property "Reference" "Q15"
-			(at 184.15 34.29 0)
+			(at 196.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8699,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.15 35.56 0)
+			(at 196.85 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8708,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8717,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8726,7 @@
 			)
 		)
 		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8735,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MMBT4403LT1G"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8744,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8753,7 @@
 			)
 		)
 		(property "Supplier Part" "C78864"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8762,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8771,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PNP 电流:600mA 电压:40V"
-			(at 179.07 34.29 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,16 +9091,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 54.61 0)
+		(at 130.81 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65bc65e8-9ac0-4ee7-a3f5-bd1e8f9929ac")
 		(property "Reference" "#PWR0160"
-			(at 121.92 60.96 0)
+			(at 130.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +9108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 59.69 0)
+			(at 130.81 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +9116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 54.61 0)
+			(at 130.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +9125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 54.61 0)
+			(at 130.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +9134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 54.61 0)
+			(at 130.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +9354,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:R0603")
-		(at 182.88 49.53 270)
+		(at 195.58 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8871,7 +9362,7 @@
 		(dnp no)
 		(uuid "72f1850b-ab06-4c5c-ae11-c589c414d5a3")
 		(property "Reference" "R73"
-			(at 180.34 47.752 90)
+			(at 193.04 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +9370,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 181.356 45.974 90)
+			(at 194.056 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +9378,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +9387,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +9396,7 @@
 			)
 		)
 		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +9405,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9414,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +9423,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,7 +9432,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +9441,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 182.88 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,42 +9849,33 @@
 		)
 	)
 	(symbol
-		(lib_id "persional_library:C0603")
-		(at 91.44 38.1 90)
+		(lib_id "persional_library:F1206")
+		(at 20.32 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8826309a-d9e3-4c58-9494-d14081fcf575")
-		(property "Reference" "C91"
-			(at 91.694 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 92.964 36.576 90)
+		(fields_autoplaced yes)
+		(uuid "849b4a3a-cddb-45ac-acd7-92341ccc916f")
+		(property "Reference" "F2"
+			(at 20.32 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "persional_library:C0603"
-			(at 91.44 38.1 0)
+		(property "Value" "~"
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
-			(at 91.44 38.1 0)
+		(property "Footprint" "persional_library:F1206"
+			(at 20.32 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,8 +9883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
-			(at 91.44 38.1 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+			(at 20.32 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,8 +9892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL10A105KB8NNNC"
-			(at 91.44 38.1 0)
+		(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+			(at 20.32 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,8 +9901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 91.44 38.1 0)
+		(property "Manufacturer Part" "SMD1206-050-33"
+			(at 20.32 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,8 +9910,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C15849"
-			(at 91.44 38.1 0)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 20.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C46641017"
+			(at 20.32 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9929,120 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 91.44 38.1 0)
+			(at 20.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SMD1206-050-33"
+			(at 20.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2fbcb07-4cae-4ade-a613-8bbf15929976")
+		)
+		(pin "1"
+			(uuid "97879038-cba1-4213-bf33-6ef6737e20d7")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "persional_library:C0603")
+		(at 100.33 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8826309a-d9e3-4c58-9494-d14081fcf575")
+		(property "Reference" "C91"
+			(at 100.584 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 101.854 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:C0603"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15849"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +10051,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 91.44 38.1 0)
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,6 +10601,119 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:F1206")
+		(at 152.4 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c3cb86-4049-4f6f-b95d-4510b5967ecf")
+		(property "Reference" "F6"
+			(at 152.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:F1206"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMD1206-050-33"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C46641017"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SMD1206-050-33"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87196b78-23cb-4f58-a208-64e55e7c6770")
+		)
+		(pin "1"
+			(uuid "0eecb03f-8df3-4317-ad7c-5e8532b02af3")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "persional_library:R0603")
 		(at 208.28 93.98 0)
 		(unit 1)
@@ -10177,7 +10894,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:R0603")
-		(at 100.33 49.53 270)
+		(at 109.22 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10185,7 +10902,7 @@
 		(dnp no)
 		(uuid "a2da16db-36d2-4833-9b65-f94893833a47")
 		(property "Reference" "R66"
-			(at 97.79 47.752 90)
+			(at 106.68 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10910,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 98.806 45.974 90)
+			(at 107.696 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +10918,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10927,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10936,7 @@
 			)
 		)
 		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,7 +10945,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10237,7 +10954,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10963,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10972,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10981,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 100.33 49.53 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +11204,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:MOSFET_DMG2305UX")
-		(at 172.72 22.86 90)
+		(at 185.42 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +11213,7 @@
 		(fields_autoplaced yes)
 		(uuid "abb4519e-eb71-446d-b211-a2dfe2db3c43")
 		(property "Reference" "Q14"
-			(at 172.72 16.51 90)
+			(at 185.42 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +11221,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 172.72 17.78 90)
+			(at 185.42 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +11229,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +11238,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +11247,7 @@
 			)
 		)
 		(property "Description" "漏源电压(Vdss):20V;连续漏极电流(Id):4.1A;导通电阻(RDS(on)):52mΩ@4.5V,4.1A;耗散功率(Pd):1.7W;阈值电压(Vgs(th)):450mV;"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +11256,7 @@
 			)
 		)
 		(property "Manufacturer Part" "DMG2305UX"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +11265,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC(台舟)"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +11274,7 @@
 			)
 		)
 		(property "Supplier Part" "C2940629"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +11283,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +11292,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:20V 电流:4.1A"
-			(at 172.72 22.86 0)
+			(at 185.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +11432,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:Transistor_PNP_MMBT4403LT1G")
-		(at 104.14 78.74 180)
+		(at 114.3 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10724,7 +11441,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0457786-f370-4691-940a-80112c602311")
 		(property "Reference" "Q10"
-			(at 99.06 78.74 0)
+			(at 109.22 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +11450,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 99.06 80.01 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +11459,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,7 +11468,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMBT4403LT1G/80001.html"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +11477,7 @@
 			)
 		)
 		(property "Description" "晶体管类型:PNP;集电极电流(Ic):600mA;集射极击穿电压(Vceo):40V;耗散功率(Pd):225mW;直流电流增益(hFE):30@0.1mA,1.0V;"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +11486,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MMBT4403LT1G"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +11495,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10787,7 +11504,7 @@
 			)
 		)
 		(property "Supplier Part" "C78864"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,7 +11513,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,7 +11522,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PNP 电流:600mA 电压:40V"
-			(at 104.14 78.74 0)
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +11550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 54.61 0)
+		(at 195.58 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10842,7 +11559,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0888ad2-17ae-43bb-a83c-2c1a5a3e1d0e")
 		(property "Reference" "#PWR0173"
-			(at 182.88 60.96 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +11568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 59.69 0)
+			(at 195.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +11576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 54.61 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +11585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 54.61 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10877,7 +11594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 54.61 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11077,7 +11794,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 182.88 22.86 270)
+		(at 195.58 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11086,7 +11803,7 @@
 		(fields_autoplaced yes)
 		(uuid "c088b87e-10d4-41c3-923c-2beccf45aeee")
 		(property "Reference" "#PWR0172"
-			(at 179.07 22.86 0)
+			(at 191.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +11812,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 186.69 22.86 90)
+			(at 199.39 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 22.86 0)
+			(at 195.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 22.86 0)
+			(at 195.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 182.88 22.86 0)
+			(at 195.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11257,7 +11974,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:R0603")
-		(at 161.29 49.53 270)
+		(at 173.99 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11265,7 +11982,7 @@
 		(dnp no)
 		(uuid "c93497b4-227b-40af-93ad-b1b1516c149f")
 		(property "Reference" "R72"
-			(at 158.75 47.752 90)
+			(at 171.45 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11990,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 159.766 45.974 90)
+			(at 172.466 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +11998,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +12007,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +12016,7 @@
 			)
 		)
 		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11308,7 +12025,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11317,7 +12034,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,7 +12043,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11335,7 +12052,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +12061,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 161.29 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +12086,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:MOSFET_DMG2305UX")
-		(at 111.76 22.86 90)
+		(at 120.65 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11378,7 +12095,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc60534c-7017-4f30-a7c3-476eb175ca38")
 		(property "Reference" "Q5"
-			(at 111.76 16.51 90)
+			(at 120.65 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +12103,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 17.78 90)
+			(at 120.65 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +12111,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11403,7 +12120,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,7 +12129,7 @@
 			)
 		)
 		(property "Description" "漏源电压(Vdss):20V;连续漏极电流(Id):4.1A;导通电阻(RDS(on)):52mΩ@4.5V,4.1A;耗散功率(Pd):1.7W;阈值电压(Vgs(th)):450mV;"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +12138,7 @@
 			)
 		)
 		(property "Manufacturer Part" "DMG2305UX"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +12147,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC(台舟)"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11439,7 +12156,7 @@
 			)
 		)
 		(property "Supplier Part" "C2940629"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,7 +12165,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,7 +12174,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:20V 电流:4.1A"
-			(at 111.76 22.86 0)
+			(at 120.65 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,16 +12202,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 54.61 0)
+		(at 100.33 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd9deccc-bb3b-4d53-a632-53aa7c8e1747")
 		(property "Reference" "#PWR0158"
-			(at 91.44 60.96 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +12219,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 59.69 0)
+			(at 100.33 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +12227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 54.61 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +12236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 54.61 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +12245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 54.61 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +12379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 99.06 0)
+		(at 132.08 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11672,7 +12388,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1b3e763-2563-4c26-841c-a8882fa7c122")
 		(property "Reference" "#PWR0166"
-			(at 121.92 105.41 0)
+			(at 132.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +12397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 104.14 0)
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +12405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +12414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,7 +12423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,16 +12445,15 @@
 	)
 	(symbol
 		(lib_id "persional_library:MOSFET_DMG2305UX")
-		(at 111.76 67.31 90)
+		(at 121.92 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d31730e1-6493-4296-81fb-06c7496a278d")
 		(property "Reference" "Q11"
-			(at 111.76 60.96 90)
+			(at 122.174 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,7 +12461,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 62.23 90)
+			(at 121.92 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +12469,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11763,7 +12478,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,7 +12487,7 @@
 			)
 		)
 		(property "Description" "漏源电压(Vdss):20V;连续漏极电流(Id):4.1A;导通电阻(RDS(on)):52mΩ@4.5V,4.1A;耗散功率(Pd):1.7W;阈值电压(Vgs(th)):450mV;"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +12496,7 @@
 			)
 		)
 		(property "Manufacturer Part" "DMG2305UX"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +12505,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC(台舟)"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +12514,7 @@
 			)
 		)
 		(property "Supplier Part" "C2940629"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +12523,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +12532,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:20V 电流:4.1A"
-			(at 111.76 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11845,7 +12560,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:R0603")
-		(at 121.92 93.98 270)
+		(at 132.08 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11853,7 +12568,7 @@
 		(dnp no)
 		(uuid "d69183e7-c098-4f5d-82a4-bfe9f680a1f9")
 		(property "Reference" "R71"
-			(at 119.38 92.202 90)
+			(at 129.54 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +12576,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 120.396 90.424 90)
+			(at 130.556 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,7 +12584,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +12593,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +12602,7 @@
 			)
 		)
 		(property "Description" "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/°C;"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +12611,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +12620,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +12629,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +12638,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +12647,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 121.92 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +12672,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:C0603")
-		(at 152.4 38.1 90)
+		(at 165.1 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11965,7 +12680,7 @@
 		(dnp no)
 		(uuid "d9d997be-d66d-4635-9511-3b2b7e4583c3")
 		(property "Reference" "C94"
-			(at 152.654 39.878 90)
+			(at 165.354 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +12689,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 153.924 36.576 90)
+			(at 166.624 36.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +12697,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:C0603"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +12706,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A105KB8NNNC/16531.html"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +12715,7 @@
 			)
 		)
 		(property "Description" "容值:1uF;精度:±10%;额定电压:50V;温度系数:X5R;"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +12724,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10A105KB8NNNC"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12733,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12027,7 +12742,7 @@
 			)
 		)
 		(property "Supplier Part" "C15849"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12036,7 +12751,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12045,7 +12760,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 152.4 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,8 +12784,121 @@
 		)
 	)
 	(symbol
+		(lib_id "persional_library:F1206")
+		(at 87.63 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2ae015-855c-4566-908d-af7961873978")
+		(property "Reference" "F5"
+			(at 87.63 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "persional_library:F1206"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMD1206-050-33/48798723.html"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "耐压(Vmax):33V;最大电流(Imax):40A;保持电流(Ihold):500mA;跳闸电流(Itrip):1A;"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMD1206-050-33"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C46641017"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SMD1206-050-33"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37ff7e25-2f45-41c2-83c2-4bd63e7ee039")
+		)
+		(pin "1"
+			(uuid "e6695854-9d07-4d05-af05-3172533e592f")
+		)
+		(instances
+			(project "ChinoHub"
+				(path "/bb6002ed-6e0a-40ea-a48c-f92cae8db5fa/d5d47200-fa6d-45d0-a0a6-0cb57213afe3"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 161.29 54.61 0)
+		(at 173.99 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12079,7 +12907,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd658fa5-85fd-4e65-bfa6-ae739e62cf23")
 		(property "Reference" "#PWR0171"
-			(at 161.29 60.96 0)
+			(at 173.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12088,7 +12916,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 59.69 0)
+			(at 173.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,7 +12924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 54.61 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,7 +12933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 54.61 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 54.61 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +13401,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 121.92 22.86 270)
+		(at 130.81 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12582,7 +13410,7 @@
 		(fields_autoplaced yes)
 		(uuid "e61572e4-4260-4a76-848a-38044b2a99b1")
 		(property "Reference" "#PWR0170"
-			(at 118.11 22.86 0)
+			(at 127 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12591,7 +13419,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 125.73 22.86 90)
+			(at 134.62 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +13428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 22.86 0)
+			(at 130.81 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +13437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 22.86 0)
+			(at 130.81 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12618,7 +13446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 22.86 0)
+			(at 130.81 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +13718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 99.06 0)
+		(at 110.49 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12899,7 +13727,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1f6be07-246e-4f0c-8d54-9dcd3ee5f53f")
 		(property "Reference" "#PWR0165"
-			(at 100.33 105.41 0)
+			(at 110.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +13736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 104.14 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12916,7 +13744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 99.06 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12925,7 +13753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 99.06 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,7 +13762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 99.06 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,7 +13784,7 @@
 	)
 	(symbol
 		(lib_id "persional_library:TVS_Diode_SMBJ5.0A")
-		(at 86.36 82.55 270)
+		(at 96.52 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12964,7 +13792,7 @@
 		(dnp no)
 		(uuid "f2f924e0-761d-4105-b158-91f0f0af5433")
 		(property "Reference" "D4"
-			(at 86.614 78.994 90)
+			(at 96.774 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +13801,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 83.312 90)
+			(at 100.33 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,7 +13810,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +13819,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMBJ5.0A/180833.html"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,7 +13828,7 @@
 			)
 		)
 		(property "Description" "极性:单向;反向截止电压(Vrwm):5V;钳位电压:9.2V;峰值脉冲电流(Ipp):65.3A@10/1000us;峰值脉冲功率(Ppp):600W@10/1000us;击穿电压:7V;"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +13837,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMBJ5.0A"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13018,7 +13846,7 @@
 			)
 		)
 		(property "Manufacturer" "晶导微电子"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +13855,7 @@
 			)
 		)
 		(property "Supplier Part" "C169448"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,7 +13864,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +13873,7 @@
 			)
 		)
 		(property "LCSC Part Name" "单向TVS 5V截止 峰值浪涌电流：65.3A@10/1000us"
-			(at 86.36 82.55 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

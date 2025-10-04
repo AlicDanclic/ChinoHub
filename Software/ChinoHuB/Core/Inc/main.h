@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define GPIO1_Pin GPIO_PIN_10
+#define GPIO1_GPIO_Port GPIOB
+#define GPIO2_Pin GPIO_PIN_11
+#define GPIO2_GPIO_Port GPIOB
 #define HDMI_KEY_Pin GPIO_PIN_12
 #define HDMI_KEY_GPIO_Port GPIOB
 #define HUB_KEY4_Pin GPIO_PIN_13

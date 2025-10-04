@@ -1,7 +1,7 @@
 {
   "projectName": "ChinoHub",
   "creationDate": "2025-09-18",
-  "lastUpdateDate": "2025-10-03",
+  "lastUpdateDate": "2025-10-04",
   "changelog": [
     {
       "version": "1.0.0",
@@ -52,6 +52,11 @@
       "version": "1.0.9",
       "updateDate": "2025-10-03",
       "info": "修改了电源供电部分的内容"
+    },
+    {
+      "version": "1.0.10",
+      "updateDate": "2025-10-04",
+      "info": "complete sch"
     }
   ]
 }
