@@ -1,7 +1,7 @@
 {
   "projectName": "ChinoHub",
   "creationDate": "2025-09-18",
-  "lastUpdateDate": "2025-10-04",
+  "lastUpdateDate": "2025-10-05",
   "changelog": [
     {
       "version": "1.0.0",
@@ -62,6 +62,11 @@
       "version": "1.0.11",
       "updateDate": "2025-10-04",
       "info": "修改了一些小错误,并补充部分外设"
+    },
+    {
+      "version": "1.0.11",
+      "updateDate": "2025-10-05",
+      "info": "开始PCB布局"
     }
   ]
 }
